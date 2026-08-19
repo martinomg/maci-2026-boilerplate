@@ -4,6 +4,7 @@ node_modules/
 coverage/
 dist/
 *.tsbuildinfo
+next-env.d.ts
 
 # Local environment files. Only examples are versioned.
 .env

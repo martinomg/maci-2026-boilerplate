@@ -109,7 +109,7 @@ Skills are public project assets:
 - `.agents/skills/issue-planning`
 - `.agents/skills/parallel-worktrees`
 
-Claude-compatible forwarders live in `.claude/skills`. `AGENTS.md` and `CLAUDE.md` point to the same canonical instructions.
+Claude-compatible forwarders live in `.claude/skills`. `AGENTS.md` and `CLAUDE.md` carry the same project guidance. Gemini CLI loads `GEMINI.md`, which imports `AGENTS.md`, and discovers the same canonical `.agents/skills` directory without duplicate copies.
 
 ## Environment and privacy
 
@@ -137,4 +137,3 @@ pnpm verify
 ## License
 
 MIT
-

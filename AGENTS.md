@@ -37,5 +37,4 @@ When assigning parallel work, give each agent exact file ownership, expected evi
 
 Run checks proportional to the change. Before publishing the full project, run `pnpm verify` and the privacy scan documented in `README.md`.
 
-Keep this file and `CLAUDE.md` semantically identical when project guidance changes.
-
+Keep this file and `CLAUDE.md` semantically identical when project guidance changes. `GEMINI.md` imports this file, and Gemini CLI discovers the canonical `.agents/skills` directory directly.
