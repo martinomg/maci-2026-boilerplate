@@ -35,10 +35,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <footer className="site-footer">
           <p>Built with Next.js, Directus Sync and Qdrant.</p>
-          <a href="https://github.com">Source on GitHub</a>
+          <a href="https://github.com/martinomg/maci-2026-boilerplate">
+            Source on GitHub
+          </a>
         </footer>
       </body>
     </html>
   );
 }
-
