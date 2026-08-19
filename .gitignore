@@ -1,0 +1,25 @@
+# Dependencies and build output
+node_modules/
+.next/
+coverage/
+dist/
+*.tsbuildinfo
+
+# Local environment files. Only examples are versioned.
+.env
+.env.*
+!.env.example
+
+# Local service data
+api/data/
+api/qdrant_data/
+api/uploads/*
+!api/uploads/.gitkeep
+
+# Logs and OS metadata
+*.log
+.DS_Store
+
+# IDE-local configuration
+.idea/
+.vscode/

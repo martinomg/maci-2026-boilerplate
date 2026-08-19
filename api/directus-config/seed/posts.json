@@ -1,0 +1,46 @@
+{
+  "collection": "posts",
+  "meta": {
+    "insert_order": 10,
+    "create": true,
+    "update": true,
+    "delete": false,
+    "preserve_ids": false,
+    "ignore_on_update": ["date_created", "date_updated"]
+  },
+  "data": [
+    {
+      "_sync_id": "post-parallel-worktrees",
+      "status": "published",
+      "sort": 1,
+      "title": "Parallel work needs isolated ground",
+      "slug": "parallel-work-needs-isolated-ground",
+      "published_at": "2026-08-19T12:00:00.000Z",
+      "excerpt": "Worktrees stay useful when every branch owns its ports, containers and local data.",
+      "content": "A Git worktree separates files, but it does not automatically separate running infrastructure. Two agents can still collide on the same container names, ports and database directories.\n\nThis boilerplate gives each worktree a Compose project name, a numeric port offset and bind mounts relative to that worktree. The result is simple: each branch can migrate Directus, rebuild Next.js and index Qdrant without touching another agent's state.\n\nIsolation also improves debugging. When a migration fails, its database and logs belong to one branch. The fix can be tested, reviewed and removed without cleaning a shared environment.",
+      "cover_url": "/images/parallel-worktrees.webp"
+    },
+    {
+      "_sync_id": "post-schema-as-code",
+      "status": "published",
+      "sort": 2,
+      "title": "A CMS schema belongs in version control",
+      "slug": "cms-schema-in-version-control",
+      "published_at": "2026-08-18T12:00:00.000Z",
+      "excerpt": "Directus Sync turns collections, fields and permissions into reviewable project files.",
+      "content": "A visual CMS is convenient, but production structure should not depend on remembered clicks. Collections, fields, policies and permissions need the same review trail as application code.\n\nDirectus Sync captures that state as JSON. A fresh database can receive the schema first and sample content second. Every environment starts from the same contract, and a pull is used only to inspect or capture intentional local changes.\n\nThe workflow in this repository is code first. Edit the migration, apply it to an isolated local stack, verify the API and then commit the resulting files together.",
+      "cover_url": "/images/schema-ledger.webp"
+    },
+    {
+      "_sync_id": "post-semantic-search",
+      "status": "published",
+      "sort": 3,
+      "title": "Semantic search can start small",
+      "slug": "semantic-search-can-start-small",
+      "published_at": "2026-08-17T12:00:00.000Z",
+      "excerpt": "Qdrant is useful before an external embedding provider enters the architecture.",
+      "content": "A demo should be complete without requiring a paid model key. This project creates deterministic local vectors from post text and stores them in Qdrant. The method is intentionally small, but the indexing and retrieval boundaries are real.\n\nThe Next.js search route embeds the query with the same function and asks Qdrant for the closest posts. Replacing the local embedding with a hosted model later does not change the collection lifecycle or the application contract.\n\nThe important part is operational clarity: Directus owns editorial content, Qdrant owns the search index and Next.js presents both through server and route components.",
+      "cover_url": "/images/vector-library.webp"
+    }
+  ]
+}

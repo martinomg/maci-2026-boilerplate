@@ -1,0 +1,18 @@
+{
+  "name": "@maci/api-config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "sync:pull": "directus-sync pull -c ./directus-sync.config.cjs",
+    "sync:diff": "directus-sync diff -c ./directus-sync.config.cjs",
+    "sync:push": "directus-sync push -c ./directus-sync.config.cjs --force",
+    "seed:diff": "directus-sync seed diff -c ./directus-sync.config.cjs",
+    "seed:push": "directus-sync seed push -c ./directus-sync.config.cjs"
+  },
+  "dependencies": {
+    "directus-sync": "3.5.1",
+    "dotenv": "16.6.1"
+  }
+}
+

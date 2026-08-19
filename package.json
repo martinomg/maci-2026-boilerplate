@@ -1,0 +1,22 @@
+{
+  "name": "maci-2026-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public Next.js, Directus Sync and Qdrant boilerplate for parallel agent workflows.",
+  "license": "MIT",
+  "packageManager": "pnpm@10.11.1",
+  "scripts": {
+    "build": "pnpm --dir app build",
+    "dev": "./bin/dev.command.sh",
+    "down": "./bin/down.command.sh",
+    "lint": "pnpm --dir app lint",
+    "test": "pnpm --dir app test",
+    "typecheck": "pnpm --dir app typecheck",
+    "schema:apply": "./bin/directus.schema-apply.command.sh",
+    "schema:diff": "./bin/directus.schema-diff.command.sh",
+    "schema:pull": "./bin/directus.schema-pull.command.sh",
+    "search:index": "./bin/qdrant.index.command.sh",
+    "verify": "./bin/verify.command.sh"
+  }
+}
+
