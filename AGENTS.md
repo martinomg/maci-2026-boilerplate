@@ -25,6 +25,7 @@ Read the matching canonical skill before acting:
 
 - Schema, fields, permissions or seed changes: `.agents/skills/directus-schema/SKILL.md`
 - Creating, planning, splitting, reviewing or closing GitHub issues: `.agents/skills/issue-planning/SKILL.md`
+- Committing, pushing, opening PRs or adjusting GitHub milestones: `.agents/skills/github-delivery/SKILL.md`
 - Parallel agents, worktrees, isolated stacks or destructive experiments: `.agents/skills/parallel-worktrees/SKILL.md`
 
 ## Worktrees
@@ -36,5 +37,10 @@ When assigning parallel work, give each agent exact file ownership, expected evi
 ## Checks
 
 Run checks proportional to the change. Before publishing the full project, run `pnpm verify` and the privacy scan documented in `README.md`.
+
+- Treat local validation as the source of truth for code integrity.
+- Run the relevant lint, type, test, build, migration and runtime checks locally before committing or pushing.
+- Use GitHub Actions only as a secondary safety net. Do not rely on repeated pushes to discover failures that can be reproduced locally.
+- When CI and local results differ, reproduce the CI environment locally first and document the irreducible difference.
 
 Keep this file and `CLAUDE.md` semantically identical when project guidance changes. `GEMINI.md` imports this file, and Gemini CLI discovers the canonical `.agents/skills` directory directly.

@@ -106,6 +106,7 @@ Read `.agents/skills/parallel-worktrees/SKILL.md` before coordinating parallel a
 Skills are public project assets:
 
 - `.agents/skills/directus-schema`
+- `.agents/skills/github-delivery`
 - `.agents/skills/issue-planning`
 - `.agents/skills/parallel-worktrees`
 
@@ -133,6 +134,8 @@ pnpm verify
 ```
 
 `pnpm verify` also checks the running Directus, Qdrant, homepage, public posts endpoint and semantic search when a local environment exists.
+
+Validation is local-first: run the relevant checks before each push and use GitHub Actions only as a secondary safety net. CI should confirm an already verified change, not serve as the primary debugging loop.
 
 ## License
 
