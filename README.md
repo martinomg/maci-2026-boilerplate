@@ -53,7 +53,21 @@ Versioned source of truth
   api/directus-config/seed       starter blog content
 ```
 
-`app/lib/directus.ts` fetches the blog directly from Directus in Server Components. `app/scripts/index-blog.ts` indexes published content using a deterministic local vector, and `app/app/api/search/route.ts` queries Qdrant. Swap `embedText` for a hosted embedding model when the application requires higher retrieval quality.
+`app/lib/directus.ts` fetches the blog directly from Directus in Server Components. `app/scripts/index-blog.ts` indexes published content and `app/app/api/search/route.ts` queries Qdrant. Both go through the embedding seam in `app/lib/embeddings.ts`, which defaults to the deterministic local vector so the demo runs without any API key.
+
+### Embedding providers
+
+Select the provider with environment variables in `api/.env`; `api/.env.example` documents the placeholders and never contains a real key.
+
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `EMBEDDING_PROVIDER` | `local` | `local` for the deterministic demo vector, `openai` for a hosted OpenAI-compatible endpoint. Any other value fails fast. |
+| `EMBEDDING_API_KEY` | — | Required for `openai`. |
+| `EMBEDDING_MODEL` | `text-embedding-3-small` | Hosted model name. |
+| `EMBEDDING_BASE_URL` | `https://api.openai.com/v1` | Any OpenAI-compatible embeddings endpoint. |
+| `EMBEDDING_DIMENSIONS` | `1536` | Hosted vector size; also sent as the `dimensions` request parameter when set. |
+
+`app/lib/search-index.ts` stores the active provider signature with the Qdrant index. `pnpm search:index` recreates the collection when the provider or vector size changes, and `/api/search` returns an explicit `409` telling you to rebuild the index instead of silently returning nothing when index and query vectors disagree. Add a provider by extending `EMBEDDING_PROVIDERS` and `embedTexts` in `app/lib/embeddings.ts`.
 
 ## Directus Sync workflow
 
