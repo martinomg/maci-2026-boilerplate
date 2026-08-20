@@ -49,5 +49,56 @@
       }
     ],
     "_syncId": "f8668137-0113-417e-8dc4-b6e3c72d9afb"
+  },
+  {
+    "name": "Parking operations reports",
+    "icon": "insights",
+    "description": null,
+    "ip_access": null,
+    "enforce_tfa": false,
+    "admin_access": false,
+    "app_access": false,
+    "roles": [
+      {
+        "role": "63f2e036-2c5e-43ed-aeac-b9187007ea55",
+        "user": null,
+        "sort": 1
+      }
+    ],
+    "_syncId": "63c69a8c-a835-4903-9d77-3c14b084a7f5"
+  },
+  {
+    "name": "Parking read only",
+    "icon": "badge",
+    "description": null,
+    "ip_access": null,
+    "enforce_tfa": false,
+    "admin_access": false,
+    "app_access": false,
+    "roles": [
+      {
+        "role": "8de5b8df-0eb5-4c76-9cd4-4216eaf04025",
+        "user": null,
+        "sort": 1
+      }
+    ],
+    "_syncId": "8b42d9cd-2e91-4dac-94c5-e04184cf8b6d"
+  },
+  {
+    "name": "Parking layout configuration",
+    "icon": "tune",
+    "description": null,
+    "ip_access": null,
+    "enforce_tfa": false,
+    "admin_access": false,
+    "app_access": false,
+    "roles": [
+      {
+        "role": "0a1d723b-6e9c-4084-b2f0-7e8113dd8692",
+        "user": null,
+        "sort": 1
+      }
+    ],
+    "_syncId": "46710e4a-c8a8-45e6-8dc9-bbcd356c7cf3"
   }
 ]

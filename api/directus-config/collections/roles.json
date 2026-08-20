@@ -12,5 +12,26 @@
     "description": null,
     "parent": null,
     "_syncId": "a42736b7-3604-4b0e-a7a5-1c1ec8cbaeba"
+  },
+  {
+    "name": "Operations Chief",
+    "icon": "insights",
+    "description": "Reads parking operations data for occupancy and transaction reports.",
+    "parent": null,
+    "_syncId": "63f2e036-2c5e-43ed-aeac-b9187007ea55"
+  },
+  {
+    "name": "Internal User",
+    "icon": "badge",
+    "description": "Reads parking lots, spots, sessions and transactions to view lot layouts.",
+    "parent": null,
+    "_syncId": "8de5b8df-0eb5-4c76-9cd4-4216eaf04025"
+  },
+  {
+    "name": "Configurator",
+    "icon": "tune",
+    "description": "Reads parking data and maintains lot SVG layouts and spot element ids.",
+    "parent": null,
+    "_syncId": "0a1d723b-6e9c-4084-b2f0-7e8113dd8692"
   }
 ]
