@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { ArrowUpRight, CarFront, CircleGauge, TriangleAlert, Wallet } from "lucide-react";
+import { ArrowUpRight, CarFront, CircleGauge, Clock, Wallet } from "lucide-react";
 import Link from "next/link";
+import { Sparkline } from "@/components/charts/sparkline";
 import { PageContainer, PageHeader } from "@/components/page-header";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -11,57 +12,136 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import {
+  computeAverageStayByLot,
+  computeAverageStayMinutes,
+  computeCitywideOccupancy,
+  computeLotOccupancy,
+  computeLotOccupancyTrend,
+  computeOccupancyTrend,
+  computeRevenue,
+  formatClp,
+  formatDayLabel,
+  formatMinutes,
+  formatPercent,
+  occupancyBandLabel,
+  stripSharedNamePrefix,
+  type OccupancyBand,
+} from "@/lib/metrics";
+import { AverageStayChart, OccupancyTrendChart } from "./charts";
+import { HISTORY_DAYS, TREND_DAYS, loadDashboardData } from "./data";
 
 export const metadata: Metadata = {
   title: "Dashboard",
-  description: "Live occupancy, revenue and alert signals at a glance.",
+  description: "Live occupancy, average stay and revenue across the city.",
 };
 
-const metrics = [
-  {
-    label: "Occupancy",
-    value: "78%",
-    delta: "+4 pts vs. last week",
-    icon: CircleGauge,
-    accent: true,
-  },
-  {
-    label: "Vehicles on site",
-    value: "1,284",
-    delta: "Across 6 facilities",
-    icon: CarFront,
-    accent: false,
-  },
-  {
-    label: "Revenue today",
-    value: "$18,340",
-    delta: "+2.1% vs. forecast",
-    icon: Wallet,
-    accent: false,
-  },
-  {
-    label: "Open alerts",
-    value: "3",
-    delta: "1 requires an operator",
-    icon: TriangleAlert,
-    accent: false,
-  },
-];
+// Every metric is derived from the current server clock, so the page can never
+// be prerendered or cached.
+export const dynamic = "force-dynamic";
 
-const activity = [
-  { time: "09:42", text: "Zone B reached 95% occupancy", tone: "alert" },
-  { time: "09:15", text: "Layout revision published for Central Garage" },
-  { time: "08:58", text: "Nightly report delivered to operations" },
-  { time: "08:03", text: "Barrier 4 returned to service" },
-];
+const DAY_MS = 86_400_000;
 
-export default function DashboardPage() {
+/**
+ * Yellow is only ever used as a surface with dark ink, so the busiest band gets
+ * the primary fill and calmer bands step down through the neutral variants.
+ */
+const BAND_VARIANT: Record<OccupancyBand, "default" | "secondary" | "outline"> = {
+  high: "default",
+  elevated: "secondary",
+  moderate: "secondary",
+  low: "outline",
+};
+
+export default async function DashboardPage() {
+  const data = await loadDashboardData();
+  const now = new Date(data.now);
+  const historyStart = new Date(now.getTime() - HISTORY_DAYS * DAY_MS);
+
+  const lotOccupancy = computeLotOccupancy(data.lots, data.sessions, now);
+  const citywide = computeCitywideOccupancy(data.lots, data.sessions, now);
+  const averageStay = computeAverageStayMinutes(data.sessions, {
+    since: historyStart,
+    until: now,
+  });
+  const revenue = computeRevenue(data.transactions, { now, days: TREND_DAYS });
+  const trend = computeOccupancyTrend(data.lots, data.sessions, now, TREND_DAYS);
+  const stayByLot = computeAverageStayByLot(data.lots, data.sessions, {
+    since: historyStart,
+    until: now,
+  });
+  const stayById = new Map(stayByLot.map((entry) => [entry.lotId, entry]));
+
+  const rows = lotOccupancy
+    .map((lot) => {
+      const source = data.lots.find((entry) => entry.id === lot.lotId);
+      return {
+        ...lot,
+        averageStayMinutes: stayById.get(lot.lotId)?.averageStayMinutes ?? null,
+        closedSessions: stayById.get(lot.lotId)?.closedSessions ?? 0,
+        sparkline: source
+          ? computeLotOccupancyTrend(source, data.sessions, now, TREND_DAYS).map(
+              (point) => (point.rate === null ? null : point.rate * 100),
+            )
+          : [],
+      };
+    })
+    .sort((a, b) => (b.rate ?? -1) - (a.rate ?? -1));
+
+  const kpis = [
+    {
+      label: "Managed lots",
+      value: String(citywide.lots),
+      detail: `${citywide.capacity} spaces across the city`,
+      icon: CarFront,
+      accent: false,
+    },
+    {
+      label: "Citywide occupancy",
+      value: formatPercent(citywide.rate),
+      detail: `${citywide.occupied} of ${citywide.capacity} spaces in use now`,
+      icon: CircleGauge,
+      accent: true,
+    },
+    {
+      label: "Average stay",
+      value: formatMinutes(averageStay),
+      detail: `Closed sessions, last ${HISTORY_DAYS} days`,
+      icon: Clock,
+      accent: false,
+    },
+    {
+      label: `Revenue last ${TREND_DAYS} days`,
+      value: formatClp(revenue),
+      detail: `${data.transactions.length} payments in the last ${HISTORY_DAYS} days`,
+      icon: Wallet,
+      accent: false,
+    },
+  ];
+
+  const trendPoints = trend.map((point) => ({
+    label: formatDayLabel(point.date),
+    percent: point.rate === null ? null : Number((point.rate * 100).toFixed(1)),
+  }));
+
+  // The category axis draws its first entry at the bottom, so ascending order
+  // puts the longest stay on top.
+  const measuredStay = [...stayByLot]
+    .filter((entry) => entry.averageStayMinutes !== null)
+    .sort((a, b) => (a.averageStayMinutes ?? 0) - (b.averageStayMinutes ?? 0));
+  // Every seeded lot starts with "Estacionamiento", which would eat the axis.
+  const stayLabels = stripSharedNamePrefix(measuredStay.map((entry) => entry.name));
+  const stayPoints = measuredStay.map((entry, index) => ({
+    label: stayLabels[index],
+    minutes: Math.round(entry.averageStayMinutes ?? 0),
+  }));
+
   return (
     <PageContainer>
       <PageHeader
         eyebrow="Operations"
-        title="Dashboard"
-        description="One place to read occupancy, revenue and alert pressure across every managed facility."
+        title="City dashboard"
+        description="Occupancy, average stay and revenue for every managed lot, computed from live parking sessions and transactions."
         actions={
           <>
             <Button variant="outline" size="lg" asChild>
@@ -77,103 +157,182 @@ export default function DashboardPage() {
         }
       />
 
-      <div className="mb-4 flex items-center gap-2">
-        <Badge variant="outline" className="font-mono text-[0.68rem] uppercase">
-          Preview data
-        </Badge>
-        <p className="text-sm text-muted-foreground">
-          Live signals land with #12. The shell, theme and layout are final.
-        </p>
-      </div>
+      {data.error ? (
+        <Card className="mb-4 ring-destructive/40">
+          <CardContent>
+            <p className="text-sm font-medium">Parking data is unavailable</p>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Directus did not answer this request, so every metric below reads
+              zero. Start the stack with <code className="font-mono">pnpm dev</code>{" "}
+              and reload.
+            </p>
+          </CardContent>
+        </Card>
+      ) : null}
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-        {metrics.map((metric) => (
+        {kpis.map((kpi) => (
           <Card
-            key={metric.label}
+            key={kpi.label}
             className={
-              metric.accent
-                ? "relative overflow-hidden ring-2 ring-primary"
-                : undefined
+              kpi.accent ? "relative overflow-hidden ring-2 ring-primary" : undefined
             }
           >
-            {metric.accent ? (
+            {kpi.accent ? (
               <div
                 aria-hidden
                 className="pointer-events-none absolute -top-14 -right-10 size-40 rounded-full bg-primary/20 blur-3xl"
               />
             ) : null}
             <CardContent className="relative">
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between gap-2">
                 <p className="font-mono text-[0.68rem] tracking-[0.16em] text-muted-foreground uppercase">
-                  {metric.label}
+                  {kpi.label}
                 </p>
-                <metric.icon className="size-4 text-muted-foreground" />
+                <kpi.icon className="size-4 shrink-0 text-muted-foreground" />
               </div>
               <p className="mt-3 text-3xl font-semibold tracking-tight tabular-nums">
-                {metric.value}
+                {kpi.value}
               </p>
-              <p className="mt-1 text-sm text-muted-foreground">{metric.delta}</p>
+              <p className="mt-1 text-sm text-muted-foreground">{kpi.detail}</p>
             </CardContent>
           </Card>
         ))}
       </div>
 
-      <div className="mt-4 grid gap-4 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
+      <div className="mt-4 grid gap-4 lg:grid-cols-2">
         <Card>
           <CardHeader>
-            <CardTitle>Occupancy by facility</CardTitle>
+            <CardTitle>Citywide occupancy</CardTitle>
             <CardDescription>
-              Share of stalls currently in use, highest pressure first.
+              Share of all spaces in use, sampled once per day for the last{" "}
+              {TREND_DAYS} days.
             </CardDescription>
           </CardHeader>
-          <CardContent className="space-y-4">
-            {[
-              { site: "Central Garage", value: 95 },
-              { site: "Riverside Deck", value: 81 },
-              { site: "Airport Long Stay", value: 74 },
-              { site: "Market Street Lot", value: 58 },
-              { site: "Depot North", value: 34 },
-            ].map((row) => (
-              <div key={row.site}>
-                <div className="mb-1.5 flex items-baseline justify-between gap-4">
-                  <span className="truncate text-sm font-medium">{row.site}</span>
-                  <span className="font-mono text-xs text-muted-foreground tabular-nums">
-                    {row.value}%
-                  </span>
-                </div>
-                <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
-                  <div
-                    className="h-full rounded-full bg-primary"
-                    style={{ width: `${row.value}%` }}
-                  />
-                </div>
-              </div>
-            ))}
+          <CardContent>
+            <OccupancyTrendChart
+              points={trendPoints}
+              ariaLabel={`Citywide occupancy over the last ${TREND_DAYS} days, currently ${formatPercent(
+                citywide.rate,
+              )}.`}
+            />
           </CardContent>
         </Card>
 
         <Card>
           <CardHeader>
-            <CardTitle>Recent activity</CardTitle>
-            <CardDescription>Latest events across the portfolio.</CardDescription>
+            <CardTitle>Average stay per lot</CardTitle>
+            <CardDescription>
+              Mean minutes between entry and exit for sessions closed in the last{" "}
+              {HISTORY_DAYS} days.
+            </CardDescription>
           </CardHeader>
-          <CardContent className="divide-y divide-border">
-            {activity.map((entry) => (
-              <div key={entry.time} className="flex gap-3 py-3 first:pt-0 last:pb-0">
-                <span className="font-mono text-xs text-muted-foreground tabular-nums">
-                  {entry.time}
-                </span>
-                <p className="flex-1 text-sm">
-                  {entry.text}
-                  {entry.tone === "alert" ? (
-                    <span className="ml-2 inline-block size-1.5 translate-y-[-1px] rounded-full bg-primary align-middle" />
-                  ) : null}
-                </p>
-              </div>
-            ))}
+          <CardContent>
+            {stayPoints.length > 0 ? (
+              <AverageStayChart
+                points={stayPoints}
+                ariaLabel={`Average stay per lot: ${stayPoints
+                  .map((point) => `${point.label} ${point.minutes} minutes`)
+                  .join(", ")}.`}
+              />
+            ) : (
+              <p className="py-10 text-center text-sm text-muted-foreground">
+                No closed sessions in the window yet.
+              </p>
+            )}
           </CardContent>
         </Card>
       </div>
+
+      <Card className="mt-4">
+        <CardHeader>
+          <CardTitle>Lots</CardTitle>
+          <CardDescription>
+            Current occupancy, {TREND_DAYS}-day trend and average stay, busiest
+            first.
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="px-0">
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[46rem] border-collapse text-sm">
+              <thead>
+                <tr className="border-b border-border text-left">
+                  <th className="px-(--card-spacing) pb-2 font-mono text-[0.68rem] tracking-[0.16em] font-normal text-muted-foreground uppercase">
+                    Lot
+                  </th>
+                  <th className="px-3 pb-2 font-mono text-[0.68rem] tracking-[0.16em] font-normal text-muted-foreground uppercase">
+                    Occupancy
+                  </th>
+                  <th className="px-3 pb-2 font-mono text-[0.68rem] tracking-[0.16em] font-normal text-muted-foreground uppercase">
+                    Band
+                  </th>
+                  <th className="px-3 pb-2 font-mono text-[0.68rem] tracking-[0.16em] font-normal text-muted-foreground uppercase">
+                    Trend
+                  </th>
+                  <th className="px-3 pb-2 text-right font-mono text-[0.68rem] tracking-[0.16em] font-normal text-muted-foreground uppercase">
+                    Avg. stay
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map((row) => (
+                  <tr
+                    key={row.lotId}
+                    className="border-b border-border last:border-0"
+                  >
+                    <td className="px-(--card-spacing) py-3">
+                      <p className="font-medium">{row.name}</p>
+                      <p className="text-xs text-muted-foreground tabular-nums">
+                        {row.occupied} of {row.capacity} spaces
+                      </p>
+                    </td>
+                    <td className="w-[34%] px-3 py-3">
+                      <div className="flex items-center gap-3">
+                        <div className="h-2 w-full max-w-40 overflow-hidden rounded-full bg-muted">
+                          <div
+                            className="h-full rounded-full bg-primary"
+                            style={{ width: `${Math.round((row.rate ?? 0) * 100)}%` }}
+                          />
+                        </div>
+                        <span className="font-mono text-xs tabular-nums">
+                          {formatPercent(row.rate)}
+                        </span>
+                      </div>
+                    </td>
+                    <td className="px-3 py-3">
+                      <Badge
+                        variant={row.band ? BAND_VARIANT[row.band] : "outline"}
+                        className="uppercase"
+                      >
+                        {occupancyBandLabel(row.band)}
+                      </Badge>
+                    </td>
+                    <td className="px-3 py-3 text-primary">
+                      <Sparkline
+                        values={row.sparkline}
+                        ariaLabel={`${row.name} occupancy trend over the last ${TREND_DAYS} days.`}
+                      />
+                    </td>
+                    <td className="px-3 py-3 text-right font-mono tabular-nums">
+                      {formatMinutes(row.averageStayMinutes)}
+                    </td>
+                  </tr>
+                ))}
+                {rows.length === 0 ? (
+                  <tr>
+                    <td
+                      colSpan={5}
+                      className="px-(--card-spacing) py-10 text-center text-sm text-muted-foreground"
+                    >
+                      No published lots yet.
+                    </td>
+                  </tr>
+                ) : null}
+              </tbody>
+            </table>
+          </div>
+        </CardContent>
+      </Card>
     </PageContainer>
   );
 }
