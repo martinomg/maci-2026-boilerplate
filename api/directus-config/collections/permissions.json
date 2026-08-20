@@ -85,5 +85,221 @@
     ],
     "policy": "f8668137-0113-417e-8dc4-b6e3c72d9afb",
     "_syncId": "5dab8b01-f6a9-4a5b-846c-04629707060b"
+  },
+  {
+    "collection": "parking_lots",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "8b42d9cd-2e91-4dac-94c5-e04184cf8b6d",
+    "_syncId": "7fd81df4-7037-4527-943f-72dade052196"
+  },
+  {
+    "collection": "parking_spots",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "8b42d9cd-2e91-4dac-94c5-e04184cf8b6d",
+    "_syncId": "680b082d-4166-41ec-9c2d-180bd3877679"
+  },
+  {
+    "collection": "parking_sessions",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "8b42d9cd-2e91-4dac-94c5-e04184cf8b6d",
+    "_syncId": "f37ea04d-4cd7-4722-91ac-df69ea1792e1"
+  },
+  {
+    "collection": "parking_transactions",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "8b42d9cd-2e91-4dac-94c5-e04184cf8b6d",
+    "_syncId": "8ef4ad94-43ad-457b-9c15-13ffb9ca7841"
+  },
+  {
+    "collection": "directus_files",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "8b42d9cd-2e91-4dac-94c5-e04184cf8b6d",
+    "_syncId": "4bf5eed0-a81c-4b0e-a5ba-672b1a440e83"
+  },
+  {
+    "collection": "parking_lots",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "63c69a8c-a835-4903-9d77-3c14b084a7f5",
+    "_syncId": "13553260-daa0-4b4e-8eeb-c5a1be856046"
+  },
+  {
+    "collection": "parking_spots",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "63c69a8c-a835-4903-9d77-3c14b084a7f5",
+    "_syncId": "89348ce4-b36a-44d5-9014-5d8fb80e5035"
+  },
+  {
+    "collection": "parking_sessions",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "63c69a8c-a835-4903-9d77-3c14b084a7f5",
+    "_syncId": "a415687b-00dc-4455-9083-f6fc3bc45a5a"
+  },
+  {
+    "collection": "parking_transactions",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "63c69a8c-a835-4903-9d77-3c14b084a7f5",
+    "_syncId": "7834e75b-3a08-446c-b3dc-a87e5496b36d"
+  },
+  {
+    "collection": "directus_files",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "63c69a8c-a835-4903-9d77-3c14b084a7f5",
+    "_syncId": "d3e654f0-9d3d-4c86-91a0-2debb6163aba"
+  },
+  {
+    "collection": "parking_lots",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "46710e4a-c8a8-45e6-8dc9-bbcd356c7cf3",
+    "_syncId": "d7889f00-8a51-4d1f-95c9-278745eb175c"
+  },
+  {
+    "collection": "parking_spots",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "46710e4a-c8a8-45e6-8dc9-bbcd356c7cf3",
+    "_syncId": "a9ab0b2b-4cd3-43d8-8550-c1466b2ba4bb"
+  },
+  {
+    "collection": "parking_sessions",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "46710e4a-c8a8-45e6-8dc9-bbcd356c7cf3",
+    "_syncId": "5813735d-8a21-4d8a-8552-7d6a71b530bb"
+  },
+  {
+    "collection": "parking_transactions",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "46710e4a-c8a8-45e6-8dc9-bbcd356c7cf3",
+    "_syncId": "a0efd967-be48-4da6-a785-a705d4bf50b4"
+  },
+  {
+    "collection": "directus_files",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "46710e4a-c8a8-45e6-8dc9-bbcd356c7cf3",
+    "_syncId": "8378461c-4292-44fa-8797-c667093106af"
+  },
+  {
+    "collection": "parking_lots",
+    "action": "update",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "layout_svg"
+    ],
+    "policy": "46710e4a-c8a8-45e6-8dc9-bbcd356c7cf3",
+    "_syncId": "7d1898c5-81d7-4b04-90a7-f6652eb6f1cf"
+  },
+  {
+    "collection": "parking_spots",
+    "action": "update",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "svg_element_id"
+    ],
+    "policy": "46710e4a-c8a8-45e6-8dc9-bbcd356c7cf3",
+    "_syncId": "e0ea9fde-0e73-48ea-81b6-5e75619e69ab"
+  },
+  {
+    "collection": "directus_files",
+    "action": "create",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "46710e4a-c8a8-45e6-8dc9-bbcd356c7cf3",
+    "_syncId": "2a540919-a48b-4c65-b4c2-22d1279bb026"
   }
 ]

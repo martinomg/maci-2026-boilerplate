@@ -63,6 +63,16 @@ Directus 11 represents public access with the built-in policy whose Sync ID is `
 
 The reference `Editor` role is API-only (`app_access: false`). Its policy can read alerts, update only their `label` field, and read posts; enabling Studio access would also require the corresponding minimum system-collection permissions.
 
+The parking personas follow the same API-only shape, one policy per role and no anonymous access to any `parking_*` collection:
+
+| Role | Policy | Grants |
+| --- | --- | --- |
+| `Internal User` | Parking read only | read `parking_lots`, `parking_spots`, `parking_sessions`, `parking_transactions`, `directus_files` |
+| `Operations Chief` | Parking operations reports | same reads, kept as its own policy so report-specific rules can diverge |
+| `Configurator` | Parking layout configuration | same reads plus update `parking_lots.layout_svg`, update `parking_spots.svg_element_id`, create `directus_files` |
+
+The software admin persona reuses the built-in `Administrator` role.
+
 ```bash
 # Preview drift without changing the database
 pnpm schema:diff
