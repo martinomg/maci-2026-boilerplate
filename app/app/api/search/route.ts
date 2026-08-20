@@ -1,6 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import type { BlogPost } from "@/lib/directus";
-import { embedText, QDRANT_COLLECTION } from "@/lib/vector";
+import {
+  embedOne,
+  EmbeddingConfigError,
+  EmbeddingRequestError,
+  resolveEmbeddingConfig,
+} from "@/lib/embeddings";
+import {
+  assertIndexMatchesProvider,
+  EXCLUDE_INDEX_META_FILTER,
+  qdrantBaseUrl,
+  SearchIndexMismatchError,
+} from "@/lib/search-index";
+import { QDRANT_COLLECTION } from "@/lib/vector";
 
 type SearchPoint = {
   id: string;
@@ -21,17 +33,34 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  const qdrantUrl = (process.env.QDRANT_URL ?? "http://localhost:18703").replace(
-    /\/$/,
-    "",
-  );
+  const qdrantUrl = qdrantBaseUrl();
+
+  let vector: number[];
+  try {
+    const config = resolveEmbeddingConfig();
+    await assertIndexMatchesProvider(qdrantUrl, config);
+    vector = await embedOne(query, config);
+  } catch (error) {
+    if (error instanceof EmbeddingConfigError) {
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+    if (error instanceof SearchIndexMismatchError) {
+      return NextResponse.json({ error: error.message }, { status: 409 });
+    }
+    if (error instanceof EmbeddingRequestError) {
+      return NextResponse.json({ error: error.message }, { status: 502 });
+    }
+    throw error;
+  }
+
   const response = await fetch(
     `${qdrantUrl}/collections/${QDRANT_COLLECTION}/points/search`,
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        vector: embedText(query),
+        vector,
+        filter: EXCLUDE_INDEX_META_FILTER,
         limit: 5,
         with_payload: true,
       }),
@@ -51,4 +80,3 @@ export async function GET(request: NextRequest) {
     })),
   });
 }
-
