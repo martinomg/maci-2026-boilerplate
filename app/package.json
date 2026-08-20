@@ -5,8 +5,9 @@
   "type": "module",
   "packageManager": "pnpm@10.11.1",
   "scripts": {
-    "build": "next build",
-    "dev": "next dev --hostname 0.0.0.0",
+    "build": "pnpm cesium:assets && next build",
+    "cesium:assets": "node scripts/copy-cesium-assets.mjs",
+    "dev": "pnpm cesium:assets && next dev --hostname 0.0.0.0",
     "lint": "eslint .",
     "start": "next start --hostname 0.0.0.0",
     "test": "vitest run",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.3",
+    "cesium": "^1.144.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.33.0",
