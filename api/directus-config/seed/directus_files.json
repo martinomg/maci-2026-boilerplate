@@ -1,0 +1,23 @@
+{
+  "collection": "directus_files",
+  "meta": {
+    "insert_order": 30,
+    "create": true,
+    "update": true,
+    "delete": false,
+    "preserve_ids": false,
+    "ignore_on_update": [
+      "date_created",
+      "date_updated"
+    ]
+  },
+  "data": [
+    {
+      "_sync_id": "parking-file-lot-layout-demo",
+      "_file_path": "assets/lot-layout-demo.svg",
+      "filename_download": "lot-layout-demo.svg",
+      "title": "Costanera Center parking layout",
+      "type": "image/svg+xml"
+    }
+  ]
+}

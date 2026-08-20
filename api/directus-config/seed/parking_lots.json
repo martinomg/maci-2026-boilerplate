@@ -1,0 +1,81 @@
+{
+  "collection": "parking_lots",
+  "meta": {
+    "insert_order": 40,
+    "create": true,
+    "update": true,
+    "delete": false,
+    "preserve_ids": false,
+    "ignore_on_update": [
+      "date_created",
+      "date_updated"
+    ]
+  },
+  "data": [
+    {
+      "_sync_id": "parking-lot-plaza-de-armas",
+      "status": "published",
+      "sort": 1,
+      "name": "Estacionamiento Plaza de Armas",
+      "city": "Santiago",
+      "address": "Compañía de Jesús 1101, Santiago",
+      "latitude": "-33.4372000",
+      "longitude": "-70.6506000",
+      "capacity": 30,
+      "hourly_rate": "1200.00",
+      "layout_svg": null
+    },
+    {
+      "_sync_id": "parking-lot-costanera-center",
+      "status": "published",
+      "sort": 2,
+      "name": "Estacionamiento Costanera Center",
+      "city": "Santiago",
+      "address": "Av. Andrés Bello 2447, Providencia",
+      "latitude": "-33.4175000",
+      "longitude": "-70.6062000",
+      "capacity": 60,
+      "hourly_rate": "2500.00",
+      "layout_svg": "parking-file-lot-layout-demo"
+    },
+    {
+      "_sync_id": "parking-lot-los-leones",
+      "status": "published",
+      "sort": 3,
+      "name": "Estacionamiento Los Leones",
+      "city": "Santiago",
+      "address": "Av. Providencia 2331, Providencia",
+      "latitude": "-33.4212000",
+      "longitude": "-70.6100000",
+      "capacity": 24,
+      "hourly_rate": "2000.00",
+      "layout_svg": null
+    },
+    {
+      "_sync_id": "parking-lot-estacion-central",
+      "status": "published",
+      "sort": 4,
+      "name": "Estacionamiento Estación Central",
+      "city": "Santiago",
+      "address": "Av. Libertador Bernardo O'Higgins 3170, Estación Central",
+      "latitude": "-33.4525000",
+      "longitude": "-70.6790000",
+      "capacity": 40,
+      "hourly_rate": "900.00",
+      "layout_svg": null
+    },
+    {
+      "_sync_id": "parking-lot-nunoa",
+      "status": "published",
+      "sort": 5,
+      "name": "Estacionamiento Plaza Ñuñoa",
+      "city": "Santiago",
+      "address": "Av. Irarrázaval 3800, Ñuñoa",
+      "latitude": "-33.4560000",
+      "longitude": "-70.5960000",
+      "capacity": 45,
+      "hourly_rate": "1100.00",
+      "layout_svg": null
+    }
+  ]
+}

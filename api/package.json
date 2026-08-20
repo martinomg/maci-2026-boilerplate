@@ -5,6 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "sync:test": "node --test ./scripts/validate-directus-config.test.mjs",
+    "seed:test": "node --test ./scripts/parking-seed.test.mjs",
     "sync:validate": "node ./scripts/validate-directus-config.mjs",
     "sync:pull": "directus-sync pull -c ./directus-sync.config.cjs",
     "sync:diff": "directus-sync diff -c ./directus-sync.config.cjs",
