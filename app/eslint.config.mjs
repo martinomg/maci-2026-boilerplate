@@ -5,6 +5,8 @@ import nextTypescript from "eslint-config-next/typescript";
 export default defineConfig([
   ...nextVitals,
   ...nextTypescript,
-  globalIgnores([".next/**", "coverage/**", "next-env.d.ts"]),
+  // public/cesium is copied verbatim from the cesium package by
+  // scripts/copy-cesium-assets.mjs and is never edited here.
+  globalIgnores([".next/**", "coverage/**", "next-env.d.ts", "public/cesium/**"]),
 ]);
 

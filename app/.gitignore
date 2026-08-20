@@ -1,0 +1,2 @@
+# CesiumJS runtime assets copied from node_modules by scripts/copy-cesium-assets.mjs.
+/public/cesium/
