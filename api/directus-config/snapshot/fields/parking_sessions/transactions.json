@@ -1,0 +1,31 @@
+{
+  "collection": "parking_sessions",
+  "field": "transactions",
+  "type": "alias",
+  "meta": {
+    "collection": "parking_sessions",
+    "conditions": null,
+    "display": null,
+    "display_options": null,
+    "field": "transactions",
+    "group": null,
+    "hidden": false,
+    "interface": "list-o2m",
+    "note": null,
+    "options": {
+      "enableCreate": true,
+      "enableSelect": true
+    },
+    "readonly": false,
+    "required": false,
+    "searchable": true,
+    "sort": 7,
+    "special": [
+      "o2m"
+    ],
+    "translations": null,
+    "validation": null,
+    "validation_message": null,
+    "width": "full"
+  }
+}

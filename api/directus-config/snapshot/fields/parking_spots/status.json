@@ -1,0 +1,64 @@
+{
+  "collection": "parking_spots",
+  "field": "status",
+  "type": "string",
+  "meta": {
+    "collection": "parking_spots",
+    "conditions": null,
+    "display": "labels",
+    "display_options": {
+      "showAsDot": true
+    },
+    "field": "status",
+    "group": null,
+    "hidden": false,
+    "interface": "select-dropdown",
+    "note": null,
+    "options": {
+      "choices": [
+        {
+          "color": "var(--theme--primary)",
+          "text": "Available",
+          "value": "available"
+        },
+        {
+          "color": "var(--theme--warning)",
+          "text": "Maintenance",
+          "value": "maintenance"
+        },
+        {
+          "color": "var(--theme--danger)",
+          "text": "Out of service",
+          "value": "out_of_service"
+        }
+      ]
+    },
+    "readonly": false,
+    "required": false,
+    "searchable": true,
+    "sort": 6,
+    "special": null,
+    "translations": null,
+    "validation": null,
+    "validation_message": null,
+    "width": "half"
+  },
+  "schema": {
+    "name": "status",
+    "table": "parking_spots",
+    "data_type": "character varying",
+    "default_value": "available",
+    "max_length": 255,
+    "numeric_precision": null,
+    "numeric_scale": null,
+    "is_nullable": false,
+    "is_unique": false,
+    "is_indexed": false,
+    "is_primary_key": false,
+    "is_generated": false,
+    "generation_expression": null,
+    "has_auto_increment": false,
+    "foreign_key_table": null,
+    "foreign_key_column": null
+  }
+}
