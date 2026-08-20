@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
-import { AlertBanner } from "@/components/alert-banner";
+import { ThemeProvider } from "@/components/theme-provider";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { cn } from "@/lib/utils";
 import "./globals.css";
 
 const geist = Geist({ variable: "--font-sans", subsets: ["latin"] });
@@ -12,35 +13,24 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:18708",
   ),
   title: {
-    default: "Maci Journal",
-    template: "%s | Maci Journal",
+    default: "Maci Control",
+    template: "%s | Maci Control",
   },
   description: "A working Next.js, Directus Sync and Qdrant starter.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={`${geist.variable} ${geistMono.variable}`}>
-        <AlertBanner />
-        <header className="site-header">
-          <Link className="wordmark" href="/">
-            Maci Journal
-          </Link>
-          <nav aria-label="Primary navigation">
-            <Link href="/#writing">Writing</Link>
-            <a href={process.env.NEXT_PUBLIC_DIRECTUS_URL ?? "http://localhost:18707"}>
-              Directus
-            </a>
-          </nav>
-        </header>
-        {children}
-        <footer className="site-footer">
-          <p>Built with Next.js, Directus Sync and Qdrant.</p>
-          <a href="https://github.com/martinomg/maci-2026-boilerplate">
-            Source on GitHub
-          </a>
-        </footer>
+    <html lang="en" suppressHydrationWarning>
+      <body className={cn(geist.variable, geistMono.variable, "font-sans")}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <TooltipProvider delayDuration={200}>{children}</TooltipProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

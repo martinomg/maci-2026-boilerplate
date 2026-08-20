@@ -69,6 +69,18 @@ Select the provider with environment variables in `api/.env`; `api/.env.example`
 
 `app/lib/search-index.ts` stores the active provider signature with the Qdrant index. `pnpm search:index` recreates the collection when the provider or vector size changes, and `/api/search` returns an explicit `409` telling you to rebuild the index instead of silently returning nothing when index and query vectors disagree. Add a provider by extending `EMBEDDING_PROVIDERS` and `embedTexts` in `app/lib/embeddings.ts`.
 
+## Application shell
+
+Every page renders inside the shell in `app/app/(shell)/layout.tsx`: a collapsible sidebar plus a sticky header, built on Tailwind v4 and shadcn/ui with a vibrant yellow accent (`--primary: #FACC15`) and a matching dark theme. Yellow is only ever used as a surface with dark ink on top, never as small text on a light background.
+
+| Route | Content |
+| --- | --- |
+| `/` | Journal index, the published posts served from Directus |
+| `/blog/<slug>` | Article page |
+| `/dashboard` | Operations overview |
+| `/map`, `/reports`, `/layouts` | Reserved feature surfaces |
+| `/settings` | Theme and connected services |
+
 ## Directus Sync workflow
 
 The project is code first. Directus Admin is useful for inspecting content, but committed JSON is the source of truth for structure and permissions.
