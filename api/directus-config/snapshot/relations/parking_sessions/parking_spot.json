@@ -1,0 +1,25 @@
+{
+  "collection": "parking_sessions",
+  "field": "parking_spot",
+  "related_collection": "parking_spots",
+  "meta": {
+    "junction_field": null,
+    "many_collection": "parking_sessions",
+    "many_field": "parking_spot",
+    "one_allowed_collections": null,
+    "one_collection": "parking_spots",
+    "one_collection_field": null,
+    "one_deselect_action": "nullify",
+    "one_field": "sessions",
+    "sort_field": null
+  },
+  "schema": {
+    "table": "parking_sessions",
+    "column": "parking_spot",
+    "foreign_key_table": "parking_spots",
+    "foreign_key_column": "id",
+    "constraint_name": "parking_sessions_parking_spot_foreign",
+    "on_update": "NO ACTION",
+    "on_delete": "SET NULL"
+  }
+}
