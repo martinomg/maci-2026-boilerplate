@@ -1,0 +1,25 @@
+{
+  "collection": "alerts",
+  "meta": {
+    "insert_order": 20,
+    "create": true,
+    "update": true,
+    "delete": false,
+    "preserve_ids": false,
+    "ignore_on_update": ["date_created", "date_updated"]
+  },
+  "data": [
+    {
+      "_sync_id": "alert-schema-first-workflow",
+      "status": "published",
+      "sort": 1,
+      "label": "Demo stack: Directus owns the schema, Next.js only reads published content."
+    },
+    {
+      "_sync_id": "alert-scheduled-maintenance",
+      "status": "draft",
+      "sort": 2,
+      "label": "Draft example: this alert stays hidden until an editor publishes it."
+    }
+  ]
+}
