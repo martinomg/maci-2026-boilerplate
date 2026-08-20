@@ -12,4 +12,5 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 pnpm --dir "$ROOT/api" sync:validate
 pnpm --dir "$ROOT/api" sync:push
 pnpm --dir "$ROOT/api" seed:push
+node "$ROOT/api/scripts/ensure-service-user.mjs"
 echo "Directus schema and blog seed are synchronized from versioned files."
