@@ -27,6 +27,25 @@
   {
     "collection": "alerts",
     "action": "read",
+    "permissions": {
+      "status": {
+        "_eq": "published"
+      }
+    },
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "id",
+      "status",
+      "label",
+      "sort"
+    ],
+    "policy": "_sync_default_public_policy",
+    "_syncId": "8f24e280-eca8-435c-95cf-ea7e7706fd9d"
+  },
+  {
+    "collection": "alerts",
+    "action": "read",
     "permissions": null,
     "validation": null,
     "presets": null,

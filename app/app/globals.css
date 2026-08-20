@@ -87,6 +87,21 @@ main {
   margin-inline: auto;
 }
 
+.alert-banner {
+  background: var(--accent);
+  color: var(--button-text);
+  font-size: 0.9rem;
+}
+
+.alert-banner ul {
+  width: min(100% - 2rem, 1280px);
+  margin-inline: auto;
+  padding: 0.6rem 0;
+  list-style: none;
+  display: grid;
+  gap: 0.35rem;
+}
+
 .site-header {
   min-height: 72px;
   display: flex;
