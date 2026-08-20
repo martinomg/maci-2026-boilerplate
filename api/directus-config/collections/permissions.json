@@ -23,5 +23,48 @@
     ],
     "policy": "_sync_default_public_policy",
     "_syncId": "abb881bb-6f14-4140-bd2d-e87efd13a247"
+  },
+  {
+    "collection": "alerts",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "id",
+      "status",
+      "sort",
+      "user_created",
+      "date_created",
+      "user_updated",
+      "date_updated",
+      "label"
+    ],
+    "policy": "f8668137-0113-417e-8dc4-b6e3c72d9afb",
+    "_syncId": "b523ada7-655c-4d3b-9c64-0f9606d09d77"
+  },
+  {
+    "collection": "alerts",
+    "action": "update",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "label"
+    ],
+    "policy": "f8668137-0113-417e-8dc4-b6e3c72d9afb",
+    "_syncId": "1f5c38a9-2ecb-4397-9be3-da67c0154170"
+  },
+  {
+    "collection": "posts",
+    "action": "read",
+    "permissions": null,
+    "validation": null,
+    "presets": null,
+    "fields": [
+      "*"
+    ],
+    "policy": "f8668137-0113-417e-8dc4-b6e3c72d9afb",
+    "_syncId": "5dab8b01-f6a9-4a5b-846c-04629707060b"
   }
 ]

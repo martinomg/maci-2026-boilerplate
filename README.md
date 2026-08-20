@@ -59,6 +59,10 @@ Versioned source of truth
 
 The project is code first. Directus Admin is useful for inspecting content, but committed JSON is the source of truth for structure and permissions.
 
+Directus 11 represents public access with the built-in policy whose Sync ID is `_sync_default_public_policy`. Add public permissions to that policy; do not attach a second policy with a `null` role, because Directus Sync also uses that shape to discover the reserved public policy. The schema commands validate policy references and permission filter objects before applying changes.
+
+The reference `Editor` role is API-only (`app_access: false`). Its policy can read alerts, update only their `label` field, and read posts; enabling Studio access would also require the corresponding minimum system-collection permissions.
+
 ```bash
 # Preview drift without changing the database
 pnpm schema:diff

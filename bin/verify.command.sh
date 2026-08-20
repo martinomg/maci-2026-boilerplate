@@ -4,6 +4,8 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 ENV_FILE="$ROOT/api/.env"
 
+pnpm --dir "$ROOT/api" sync:validate
+pnpm --dir "$ROOT/api" sync:test
 pnpm --dir "$ROOT/app" lint
 pnpm --dir "$ROOT/app" typecheck
 pnpm --dir "$ROOT/app" test
@@ -21,4 +23,3 @@ if [ -f "$ENV_FILE" ]; then
 fi
 
 echo "All available checks passed."
-

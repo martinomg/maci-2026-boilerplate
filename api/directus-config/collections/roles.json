@@ -5,5 +5,12 @@
     "description": "$t:admin_description",
     "parent": null,
     "_syncId": "_sync_default_admin_role"
+  },
+  {
+    "name": "Editor",
+    "icon": "supervised_user_circle",
+    "description": null,
+    "parent": null,
+    "_syncId": "a42736b7-3604-4b0e-a7a5-1c1ec8cbaeba"
   }
 ]
