@@ -1,0 +1,1840 @@
+{
+  "collection": "parking_transactions",
+  "meta": {
+    "insert_order": 70,
+    "create": true,
+    "update": true,
+    "delete": false,
+    "preserve_ids": false,
+    "ignore_on_update": [
+      "date_created",
+      "date_updated"
+    ]
+  },
+  "data": [
+    {
+      "_sync_id": "parking-transaction-los-leones-0012",
+      "parking_session": "parking-session-los-leones-0012",
+      "amount": "8000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-20T15:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0015",
+      "parking_session": "parking-session-plaza-de-armas-0015",
+      "amount": "2400.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-20T15:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0010",
+      "parking_session": "parking-session-nunoa-0010",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-20T19:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0013",
+      "parking_session": "parking-session-los-leones-0013",
+      "amount": "4000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-20T22:32:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0052",
+      "parking_session": "parking-session-costanera-center-0052",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-21T01:47:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0053",
+      "parking_session": "parking-session-costanera-center-0053",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-21T01:29:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0011",
+      "parking_session": "parking-session-nunoa-0011",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-21T03:20:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0018",
+      "parking_session": "parking-session-estacion-central-0018",
+      "amount": "9900.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-21T12:18:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0019",
+      "parking_session": "parking-session-estacion-central-0019",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-21T14:32:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0014",
+      "parking_session": "parking-session-los-leones-0014",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-21T22:38:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0016",
+      "parking_session": "parking-session-plaza-de-armas-0016",
+      "amount": "10800.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-22T03:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0054",
+      "parking_session": "parking-session-costanera-center-0054",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-21T23:52:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0012",
+      "parking_session": "parking-session-nunoa-0012",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-22T00:00:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0017",
+      "parking_session": "parking-session-plaza-de-armas-0017",
+      "amount": "1200.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-21T23:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0013",
+      "parking_session": "parking-session-nunoa-0013",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-22T00:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0020",
+      "parking_session": "parking-session-estacion-central-0020",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-22T00:35:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0021",
+      "parking_session": "parking-session-estacion-central-0021",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-22T13:28:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0022",
+      "parking_session": "parking-session-estacion-central-0022",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-22T14:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0018",
+      "parking_session": "parking-session-plaza-de-armas-0018",
+      "amount": "2400.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-22T14:48:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0023",
+      "parking_session": "parking-session-estacion-central-0023",
+      "amount": "6300.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-22T19:55:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0015",
+      "parking_session": "parking-session-los-leones-0015",
+      "amount": "2000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-22T17:30:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0055",
+      "parking_session": "parking-session-costanera-center-0055",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-22T19:03:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0014",
+      "parking_session": "parking-session-nunoa-0014",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-22T19:58:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0015",
+      "parking_session": "parking-session-nunoa-0015",
+      "amount": "5500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-22T23:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0056",
+      "parking_session": "parking-session-costanera-center-0056",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-23T03:25:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0057",
+      "parking_session": "parking-session-costanera-center-0057",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-23T02:54:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0016",
+      "parking_session": "parking-session-los-leones-0016",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-23T16:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0024",
+      "parking_session": "parking-session-estacion-central-0024",
+      "amount": "4500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-23T17:16:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0025",
+      "parking_session": "parking-session-estacion-central-0025",
+      "amount": "900.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-23T14:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0019",
+      "parking_session": "parking-session-plaza-de-armas-0019",
+      "amount": "2400.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-23T23:53:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0058",
+      "parking_session": "parking-session-costanera-center-0058",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-24T01:30:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0016",
+      "parking_session": "parking-session-nunoa-0016",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-24T01:32:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0059",
+      "parking_session": "parking-session-costanera-center-0059",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-24T04:50:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0026",
+      "parking_session": "parking-session-estacion-central-0026",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-24T14:35:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0027",
+      "parking_session": "parking-session-estacion-central-0027",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-24T19:07:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0020",
+      "parking_session": "parking-session-plaza-de-armas-0020",
+      "amount": "3600.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-24T20:00:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0017",
+      "parking_session": "parking-session-nunoa-0017",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-24T21:25:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0017",
+      "parking_session": "parking-session-los-leones-0017",
+      "amount": "4000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-24T22:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0018",
+      "parking_session": "parking-session-nunoa-0018",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-24T23:31:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0028",
+      "parking_session": "parking-session-estacion-central-0028",
+      "amount": "4500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-25T02:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0060",
+      "parking_session": "parking-session-costanera-center-0060",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-25T03:03:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0029",
+      "parking_session": "parking-session-estacion-central-0029",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-25T18:36:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0061",
+      "parking_session": "parking-session-costanera-center-0061",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-25T19:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0062",
+      "parking_session": "parking-session-costanera-center-0062",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-25T18:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0021",
+      "parking_session": "parking-session-plaza-de-armas-0021",
+      "amount": "3600.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-25T19:50:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0018",
+      "parking_session": "parking-session-los-leones-0018",
+      "amount": "4000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-25T18:56:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0019",
+      "parking_session": "parking-session-nunoa-0019",
+      "amount": "5500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-26T01:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0022",
+      "parking_session": "parking-session-plaza-de-armas-0022",
+      "amount": "7200.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-26T18:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0023",
+      "parking_session": "parking-session-plaza-de-armas-0023",
+      "amount": "2400.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-26T15:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0030",
+      "parking_session": "parking-session-estacion-central-0030",
+      "amount": "8100.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-26T22:22:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0020",
+      "parking_session": "parking-session-nunoa-0020",
+      "amount": "1100.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-26T16:36:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0019",
+      "parking_session": "parking-session-los-leones-0019",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-26T22:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0063",
+      "parking_session": "parking-session-costanera-center-0063",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-26T20:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0064",
+      "parking_session": "parking-session-costanera-center-0064",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-27T01:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0065",
+      "parking_session": "parking-session-costanera-center-0065",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-27T04:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0031",
+      "parking_session": "parking-session-estacion-central-0031",
+      "amount": "5400.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-27T17:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0032",
+      "parking_session": "parking-session-estacion-central-0032",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-27T13:17:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0033",
+      "parking_session": "parking-session-estacion-central-0033",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-27T16:17:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0021",
+      "parking_session": "parking-session-nunoa-0021",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-27T19:43:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0020",
+      "parking_session": "parking-session-los-leones-0020",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-27T20:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0024",
+      "parking_session": "parking-session-plaza-de-armas-0024",
+      "amount": "3600.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-27T23:36:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0066",
+      "parking_session": "parking-session-costanera-center-0066",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-28T01:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0021",
+      "parking_session": "parking-session-los-leones-0021",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-28T14:47:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0022",
+      "parking_session": "parking-session-nunoa-0022",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-28T16:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0023",
+      "parking_session": "parking-session-nunoa-0023",
+      "amount": "1100.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-28T19:08:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0034",
+      "parking_session": "parking-session-estacion-central-0034",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-28T23:58:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0025",
+      "parking_session": "parking-session-plaza-de-armas-0025",
+      "amount": "10800.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-29T06:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0067",
+      "parking_session": "parking-session-costanera-center-0067",
+      "amount": "12500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-29T03:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0026",
+      "parking_session": "parking-session-plaza-de-armas-0026",
+      "amount": "2400.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-29T14:36:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0068",
+      "parking_session": "parking-session-costanera-center-0068",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-29T15:49:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0022",
+      "parking_session": "parking-session-los-leones-0022",
+      "amount": "4000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-29T19:18:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0069",
+      "parking_session": "parking-session-costanera-center-0069",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-29T19:49:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0024",
+      "parking_session": "parking-session-nunoa-0024",
+      "amount": "4400.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-29T22:29:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0025",
+      "parking_session": "parking-session-nunoa-0025",
+      "amount": "4400.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-29T22:47:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0035",
+      "parking_session": "parking-session-estacion-central-0035",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-30T03:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0070",
+      "parking_session": "parking-session-costanera-center-0070",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-30T04:11:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0023",
+      "parking_session": "parking-session-los-leones-0023",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-30T17:37:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0027",
+      "parking_session": "parking-session-plaza-de-armas-0027",
+      "amount": "8400.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-30T20:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0071",
+      "parking_session": "parking-session-costanera-center-0071",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-30T23:55:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0072",
+      "parking_session": "parking-session-costanera-center-0072",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-30T23:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0026",
+      "parking_session": "parking-session-nunoa-0026",
+      "amount": "1100.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-30T22:36:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0027",
+      "parking_session": "parking-session-nunoa-0027",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-31T01:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0028",
+      "parking_session": "parking-session-plaza-de-armas-0028",
+      "amount": "2400.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-31T15:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0024",
+      "parking_session": "parking-session-los-leones-0024",
+      "amount": "2000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-31T14:37:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0028",
+      "parking_session": "parking-session-nunoa-0028",
+      "amount": "4400.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-31T19:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0025",
+      "parking_session": "parking-session-los-leones-0025",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-07-31T21:31:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0073",
+      "parking_session": "parking-session-costanera-center-0073",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-07-31T20:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0074",
+      "parking_session": "parking-session-costanera-center-0074",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-07-31T22:32:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0036",
+      "parking_session": "parking-session-estacion-central-0036",
+      "amount": "4500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-01T01:30:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0029",
+      "parking_session": "parking-session-plaza-de-armas-0029",
+      "amount": "3600.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-01T17:44:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0026",
+      "parking_session": "parking-session-los-leones-0026",
+      "amount": "4000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-01T17:05:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0037",
+      "parking_session": "parking-session-estacion-central-0037",
+      "amount": "7200.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-02T00:00:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0075",
+      "parking_session": "parking-session-costanera-center-0075",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-01T17:52:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0029",
+      "parking_session": "parking-session-nunoa-0029",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-01T20:21:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0076",
+      "parking_session": "parking-session-costanera-center-0076",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-01T22:17:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0077",
+      "parking_session": "parking-session-costanera-center-0077",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-01T22:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0030",
+      "parking_session": "parking-session-nunoa-0030",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-02T00:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0031",
+      "parking_session": "parking-session-nunoa-0031",
+      "amount": "1100.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-01T22:00:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0078",
+      "parking_session": "parking-session-costanera-center-0078",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-01T22:28:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0030",
+      "parking_session": "parking-session-plaza-de-armas-0030",
+      "amount": "3600.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-02T16:29:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0038",
+      "parking_session": "parking-session-estacion-central-0038",
+      "amount": "5400.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-02T19:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0027",
+      "parking_session": "parking-session-los-leones-0027",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-02T19:57:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0032",
+      "parking_session": "parking-session-nunoa-0032",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-02T18:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0079",
+      "parking_session": "parking-session-costanera-center-0079",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-02T18:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0033",
+      "parking_session": "parking-session-nunoa-0033",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-02T17:49:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0080",
+      "parking_session": "parking-session-costanera-center-0080",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-02T20:34:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0034",
+      "parking_session": "parking-session-nunoa-0034",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-02T22:25:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0081",
+      "parking_session": "parking-session-costanera-center-0081",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-02T23:08:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0039",
+      "parking_session": "parking-session-estacion-central-0039",
+      "amount": "7200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-03T18:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0040",
+      "parking_session": "parking-session-estacion-central-0040",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-03T13:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0028",
+      "parking_session": "parking-session-los-leones-0028",
+      "amount": "4000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-03T14:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0082",
+      "parking_session": "parking-session-costanera-center-0082",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-03T17:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0083",
+      "parking_session": "parking-session-costanera-center-0083",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-03T17:07:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0041",
+      "parking_session": "parking-session-estacion-central-0041",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-03T19:43:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0031",
+      "parking_session": "parking-session-plaza-de-armas-0031",
+      "amount": "2400.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-03T23:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0084",
+      "parking_session": "parking-session-costanera-center-0084",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-04T01:06:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0035",
+      "parking_session": "parking-session-nunoa-0035",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-04T02:53:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0032",
+      "parking_session": "parking-session-plaza-de-armas-0032",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-04T18:06:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0042",
+      "parking_session": "parking-session-estacion-central-0042",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-04T17:11:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0033",
+      "parking_session": "parking-session-plaza-de-armas-0033",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-04T21:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0085",
+      "parking_session": "parking-session-costanera-center-0085",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-04T19:28:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0036",
+      "parking_session": "parking-session-nunoa-0036",
+      "amount": "6600.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-05T01:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0043",
+      "parking_session": "parking-session-estacion-central-0043",
+      "amount": "4500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-05T18:47:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0086",
+      "parking_session": "parking-session-costanera-center-0086",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-05T17:11:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0037",
+      "parking_session": "parking-session-nunoa-0037",
+      "amount": "5500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-05T22:20:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0087",
+      "parking_session": "parking-session-costanera-center-0087",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-05T18:25:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0029",
+      "parking_session": "parking-session-los-leones-0029",
+      "amount": "4000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-05T21:53:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0044",
+      "parking_session": "parking-session-estacion-central-0044",
+      "amount": "4500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-06T02:57:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0034",
+      "parking_session": "parking-session-plaza-de-armas-0034",
+      "amount": "4800.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-06T03:42:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0088",
+      "parking_session": "parking-session-costanera-center-0088",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-06T02:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0038",
+      "parking_session": "parking-session-nunoa-0038",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-06T04:43:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0045",
+      "parking_session": "parking-session-estacion-central-0045",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-06T14:50:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0030",
+      "parking_session": "parking-session-los-leones-0030",
+      "amount": "2000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-06T16:51:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0031",
+      "parking_session": "parking-session-los-leones-0031",
+      "amount": "16000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-07T01:22:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0035",
+      "parking_session": "parking-session-plaza-de-armas-0035",
+      "amount": "4800.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-06T22:30:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0089",
+      "parking_session": "parking-session-costanera-center-0089",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-06T23:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0039",
+      "parking_session": "parking-session-nunoa-0039",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-06T22:48:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0090",
+      "parking_session": "parking-session-costanera-center-0090",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-07T02:36:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0040",
+      "parking_session": "parking-session-nunoa-0040",
+      "amount": "4400.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-07T04:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0046",
+      "parking_session": "parking-session-estacion-central-0046",
+      "amount": "12600.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-07T16:03:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0036",
+      "parking_session": "parking-session-plaza-de-armas-0036",
+      "amount": "2400.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-07T14:42:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0091",
+      "parking_session": "parking-session-costanera-center-0091",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-07T19:53:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0032",
+      "parking_session": "parking-session-los-leones-0032",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-07T20:44:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0047",
+      "parking_session": "parking-session-estacion-central-0047",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-07T20:06:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0033",
+      "parking_session": "parking-session-los-leones-0033",
+      "amount": "4000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-07T20:35:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0041",
+      "parking_session": "parking-session-nunoa-0041",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-08T02:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0092",
+      "parking_session": "parking-session-costanera-center-0092",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-08T03:15:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0037",
+      "parking_session": "parking-session-plaza-de-armas-0037",
+      "amount": "3600.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-08T15:36:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0038",
+      "parking_session": "parking-session-plaza-de-armas-0038",
+      "amount": "1200.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-08T14:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0048",
+      "parking_session": "parking-session-estacion-central-0048",
+      "amount": "8100.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-08T23:05:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0042",
+      "parking_session": "parking-session-nunoa-0042",
+      "amount": "4400.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-08T20:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0093",
+      "parking_session": "parking-session-costanera-center-0093",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-08T18:45:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0034",
+      "parking_session": "parking-session-los-leones-0034",
+      "amount": "12000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-08T21:48:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0035",
+      "parking_session": "parking-session-los-leones-0035",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-08T19:07:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0094",
+      "parking_session": "parking-session-costanera-center-0094",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-08T18:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0043",
+      "parking_session": "parking-session-nunoa-0043",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-08T19:23:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0036",
+      "parking_session": "parking-session-los-leones-0036",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-09T17:08:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0049",
+      "parking_session": "parking-session-estacion-central-0049",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-09T17:25:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0050",
+      "parking_session": "parking-session-estacion-central-0050",
+      "amount": "4500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-09T22:46:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0044",
+      "parking_session": "parking-session-nunoa-0044",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-09T23:23:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0095",
+      "parking_session": "parking-session-costanera-center-0095",
+      "amount": "30000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-10T12:37:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0039",
+      "parking_session": "parking-session-plaza-de-armas-0039",
+      "amount": "13200.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-10T11:45:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0096",
+      "parking_session": "parking-session-costanera-center-0096",
+      "amount": "27500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-10T12:49:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0051",
+      "parking_session": "parking-session-estacion-central-0051",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-10T13:44:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0052",
+      "parking_session": "parking-session-estacion-central-0052",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-10T16:03:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0037",
+      "parking_session": "parking-session-los-leones-0037",
+      "amount": "2000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-10T15:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0040",
+      "parking_session": "parking-session-plaza-de-armas-0040",
+      "amount": "2400.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-10T18:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0045",
+      "parking_session": "parking-session-nunoa-0045",
+      "amount": "3300.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-10T23:26:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0046",
+      "parking_session": "parking-session-nunoa-0046",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-10T22:31:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0097",
+      "parking_session": "parking-session-costanera-center-0097",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-11T02:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0038",
+      "parking_session": "parking-session-los-leones-0038",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-11T13:48:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0053",
+      "parking_session": "parking-session-estacion-central-0053",
+      "amount": "900.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-11T12:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0098",
+      "parking_session": "parking-session-costanera-center-0098",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-11T18:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0099",
+      "parking_session": "parking-session-costanera-center-0099",
+      "amount": "12500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-11T23:57:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0047",
+      "parking_session": "parking-session-nunoa-0047",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-11T22:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0041",
+      "parking_session": "parking-session-plaza-de-armas-0041",
+      "amount": "4800.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-12T03:58:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0100",
+      "parking_session": "parking-session-costanera-center-0100",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-12T01:09:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0054",
+      "parking_session": "parking-session-estacion-central-0054",
+      "amount": "11700.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-12T14:21:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0055",
+      "parking_session": "parking-session-estacion-central-0055",
+      "amount": "5400.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-12T16:31:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0042",
+      "parking_session": "parking-session-plaza-de-armas-0042",
+      "amount": "1200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-12T13:21:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0039",
+      "parking_session": "parking-session-los-leones-0039",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-12T17:07:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0048",
+      "parking_session": "parking-session-nunoa-0048",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-12T19:06:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0101",
+      "parking_session": "parking-session-costanera-center-0101",
+      "amount": "7500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-12T23:29:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0057",
+      "parking_session": "parking-session-estacion-central-0057",
+      "amount": "3600.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-13T02:13:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0040",
+      "parking_session": "parking-session-los-leones-0040",
+      "amount": "8000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-13T03:43:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0049",
+      "parking_session": "parking-session-nunoa-0049",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-13T02:38:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0058",
+      "parking_session": "parking-session-estacion-central-0058",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-13T14:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0059",
+      "parking_session": "parking-session-estacion-central-0059",
+      "amount": "900.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-13T14:44:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0050",
+      "parking_session": "parking-session-nunoa-0050",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-13T17:21:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0051",
+      "parking_session": "parking-session-nunoa-0051",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-13T20:30:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0041",
+      "parking_session": "parking-session-los-leones-0041",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-13T22:49:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0102",
+      "parking_session": "parking-session-costanera-center-0102",
+      "amount": "12500.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-14T06:26:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0042",
+      "parking_session": "parking-session-los-leones-0042",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-14T17:13:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0103",
+      "parking_session": "parking-session-costanera-center-0103",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-14T17:28:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0060",
+      "parking_session": "parking-session-estacion-central-0060",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-14T19:04:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0052",
+      "parking_session": "parking-session-nunoa-0052",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-14T21:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0104",
+      "parking_session": "parking-session-costanera-center-0104",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-15T03:05:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0045",
+      "parking_session": "parking-session-plaza-de-armas-0045",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-15T18:48:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0061",
+      "parking_session": "parking-session-estacion-central-0061",
+      "amount": "2700.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-15T18:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0106",
+      "parking_session": "parking-session-costanera-center-0106",
+      "amount": "2500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-15T17:38:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0107",
+      "parking_session": "parking-session-costanera-center-0107",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-15T18:25:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0053",
+      "parking_session": "parking-session-nunoa-0053",
+      "amount": "4400.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-15T21:17:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0108",
+      "parking_session": "parking-session-costanera-center-0108",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-15T19:08:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0054",
+      "parking_session": "parking-session-nunoa-0054",
+      "amount": "1100.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-15T20:13:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0062",
+      "parking_session": "parking-session-estacion-central-0062",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-15T23:04:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0055",
+      "parking_session": "parking-session-nunoa-0055",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-16T02:07:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0046",
+      "parking_session": "parking-session-plaza-de-armas-0046",
+      "amount": "3600.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-16T15:55:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0063",
+      "parking_session": "parking-session-estacion-central-0063",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-16T14:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0044",
+      "parking_session": "parking-session-los-leones-0044",
+      "amount": "12000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-16T19:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0064",
+      "parking_session": "parking-session-estacion-central-0064",
+      "amount": "900.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-16T18:06:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0056",
+      "parking_session": "parking-session-nunoa-0056",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-16T19:15:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0110",
+      "parking_session": "parking-session-costanera-center-0110",
+      "amount": "5000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-16T19:53:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0057",
+      "parking_session": "parking-session-nunoa-0057",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-16T23:00:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0058",
+      "parking_session": "parking-session-nunoa-0058",
+      "amount": "2200.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-17T01:56:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0045",
+      "parking_session": "parking-session-los-leones-0045",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-17T15:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0047",
+      "parking_session": "parking-session-plaza-de-armas-0047",
+      "amount": "6000.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-17T18:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0059",
+      "parking_session": "parking-session-nunoa-0059",
+      "amount": "4400.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-17T22:48:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0065",
+      "parking_session": "parking-session-estacion-central-0065",
+      "amount": "1800.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-18T00:21:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0112",
+      "parking_session": "parking-session-costanera-center-0112",
+      "amount": "32500.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-18T15:09:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0066",
+      "parking_session": "parking-session-estacion-central-0066",
+      "amount": "7200.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-18T19:58:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-estacion-central-0067",
+      "parking_session": "parking-session-estacion-central-0067",
+      "amount": "8100.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-18T22:13:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0048",
+      "parking_session": "parking-session-plaza-de-armas-0048",
+      "amount": "3600.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-18T18:57:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-plaza-de-armas-0049",
+      "parking_session": "parking-session-plaza-de-armas-0049",
+      "amount": "4800.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-18T21:24:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-nunoa-0060",
+      "parking_session": "parking-session-nunoa-0060",
+      "amount": "5500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-18T23:38:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0046",
+      "parking_session": "parking-session-los-leones-0046",
+      "amount": "8000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-19T02:13:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0113",
+      "parking_session": "parking-session-costanera-center-0113",
+      "amount": "10000.00",
+      "currency": "CLP",
+      "method": "app",
+      "paid_at": "2026-08-19T04:00:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-costanera-center-0114",
+      "parking_session": "parking-session-costanera-center-0114",
+      "amount": "27500.00",
+      "currency": "CLP",
+      "method": "cash",
+      "paid_at": "2026-08-19T12:34:00.000Z"
+    },
+    {
+      "_sync_id": "parking-transaction-los-leones-0047",
+      "parking_session": "parking-session-los-leones-0047",
+      "amount": "4000.00",
+      "currency": "CLP",
+      "method": "card",
+      "paid_at": "2026-08-19T16:47:00.000Z"
+    }
+  ]
+}

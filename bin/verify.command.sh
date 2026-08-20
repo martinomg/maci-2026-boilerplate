@@ -6,6 +6,7 @@ ENV_FILE="$ROOT/api/.env"
 
 pnpm --dir "$ROOT/api" sync:validate
 pnpm --dir "$ROOT/api" sync:test
+pnpm --dir "$ROOT/api" seed:test
 pnpm --dir "$ROOT/app" lint
 pnpm --dir "$ROOT/app" typecheck
 pnpm --dir "$ROOT/app" test

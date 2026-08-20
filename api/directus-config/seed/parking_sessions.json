@@ -1,0 +1,2712 @@
+{
+  "collection": "parking_sessions",
+  "meta": {
+    "insert_order": 60,
+    "create": true,
+    "update": true,
+    "delete": false,
+    "preserve_ids": false,
+    "ignore_on_update": [
+      "date_created",
+      "date_updated"
+    ]
+  },
+  "data": [
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0001",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "ZJTC76",
+      "entered_at": "2026-08-19T00:23:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0002",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "TSZT71",
+      "entered_at": "2026-08-19T13:08:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0003",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "KVPG48",
+      "entered_at": "2026-08-19T12:50:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0004",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-04",
+      "plate": "HCRK12",
+      "entered_at": "2026-08-19T16:15:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0005",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "VSXK82",
+      "entered_at": "2026-08-19T14:30:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0006",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "KSYL21",
+      "entered_at": "2026-08-19T11:53:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0007",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "XLHZ39",
+      "entered_at": "2026-08-19T13:54:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0008",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "FKHH36",
+      "entered_at": "2026-08-19T12:00:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0009",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "XCBD43",
+      "entered_at": "2026-08-19T11:47:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0010",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "GRSY56",
+      "entered_at": "2026-08-18T23:40:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0011",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "PGYC36",
+      "entered_at": "2026-08-19T15:17:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0012",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "FVYP75",
+      "entered_at": "2026-08-19T14:19:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0013",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "VJGV67",
+      "entered_at": "2026-08-19T12:50:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0014",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": null,
+      "plate": "HGLX72",
+      "entered_at": "2026-08-19T16:28:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0001",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a01",
+      "plate": "RPVD18",
+      "entered_at": "2026-08-19T00:21:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0002",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a02",
+      "plate": "LSRY57",
+      "entered_at": "2026-08-19T16:37:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0003",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a03",
+      "plate": "WLZX30",
+      "entered_at": "2026-08-19T13:28:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0004",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a04",
+      "plate": "PHXV97",
+      "entered_at": "2026-08-19T13:33:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0005",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a05",
+      "plate": "DRYR20",
+      "entered_at": "2026-08-19T16:23:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0006",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a06",
+      "plate": "PFVZ53",
+      "entered_at": "2026-08-19T14:42:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0007",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a07",
+      "plate": "CFKC77",
+      "entered_at": "2026-08-19T13:06:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0008",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a08",
+      "plate": "SRFT32",
+      "entered_at": "2026-08-19T15:39:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0009",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a09",
+      "plate": "RHTY49",
+      "entered_at": "2026-08-19T16:05:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0010",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a10",
+      "plate": "VVFW98",
+      "entered_at": "2026-08-19T01:07:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0011",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a11",
+      "plate": "SKZB98",
+      "entered_at": "2026-08-19T15:31:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0012",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a12",
+      "plate": "GJVP52",
+      "entered_at": "2026-08-19T13:22:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0013",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a13",
+      "plate": "ZWDG68",
+      "entered_at": "2026-08-19T13:23:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0014",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a14",
+      "plate": "WSDJ93",
+      "entered_at": "2026-08-19T11:40:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0015",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a15",
+      "plate": "XXVJ54",
+      "entered_at": "2026-08-19T16:13:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0016",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a16",
+      "plate": "KTCD77",
+      "entered_at": "2026-08-19T15:40:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0017",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b01",
+      "plate": "GXTR37",
+      "entered_at": "2026-08-19T15:32:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0018",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b02",
+      "plate": "GYHP67",
+      "entered_at": "2026-08-19T16:04:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0019",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b03",
+      "plate": "TBHC74",
+      "entered_at": "2026-08-19T01:45:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0020",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b04",
+      "plate": "SSXD43",
+      "entered_at": "2026-08-19T15:08:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0021",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b05",
+      "plate": "LDWX27",
+      "entered_at": "2026-08-19T14:30:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0022",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b06",
+      "plate": "PJHZ53",
+      "entered_at": "2026-08-19T16:48:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0023",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b07",
+      "plate": "KRGR51",
+      "entered_at": "2026-08-19T15:37:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0024",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b09",
+      "plate": "DXHR16",
+      "entered_at": "2026-08-19T16:50:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0025",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b10",
+      "plate": "GBJV97",
+      "entered_at": "2026-08-19T15:39:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0026",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b11",
+      "plate": "PYSK52",
+      "entered_at": "2026-08-19T16:18:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0027",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b12",
+      "plate": "PRLP11",
+      "entered_at": "2026-08-19T15:30:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0028",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b13",
+      "plate": "RXFP80",
+      "entered_at": "2026-08-19T02:08:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0029",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b14",
+      "plate": "ZZDT49",
+      "entered_at": "2026-08-19T16:28:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0030",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b15",
+      "plate": "GVPL86",
+      "entered_at": "2026-08-19T16:07:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0031",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b16",
+      "plate": "WJYK74",
+      "entered_at": "2026-08-19T16:56:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0032",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c01",
+      "plate": "DRFR21",
+      "entered_at": "2026-08-19T13:25:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0033",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c02",
+      "plate": "XWJC63",
+      "entered_at": "2026-08-19T15:27:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0034",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c03",
+      "plate": "XPVJ75",
+      "entered_at": "2026-08-19T12:55:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0035",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c04",
+      "plate": "SFGB70",
+      "entered_at": "2026-08-19T13:10:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0036",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c05",
+      "plate": "SBJH28",
+      "entered_at": "2026-08-19T16:30:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0037",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c06",
+      "plate": "GXLJ15",
+      "entered_at": "2026-08-19T03:24:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0038",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c07",
+      "plate": "KPCS99",
+      "entered_at": "2026-08-19T16:14:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0039",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c08",
+      "plate": "TRKH25",
+      "entered_at": "2026-08-19T13:14:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0040",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c09",
+      "plate": "XDPH40",
+      "entered_at": "2026-08-19T13:10:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0041",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c11",
+      "plate": "SXSX45",
+      "entered_at": "2026-08-19T16:56:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0042",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c12",
+      "plate": "XZXF54",
+      "entered_at": "2026-08-19T16:42:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0043",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c13",
+      "plate": "XTZZ73",
+      "entered_at": "2026-08-19T16:20:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0044",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c14",
+      "plate": "ZRLT55",
+      "entered_at": "2026-08-19T14:09:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0045",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d01",
+      "plate": "DYJR98",
+      "entered_at": "2026-08-19T16:11:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0046",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d02",
+      "plate": "WSSG21",
+      "entered_at": "2026-08-19T01:18:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0047",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d03",
+      "plate": "JFHF14",
+      "entered_at": "2026-08-19T16:11:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0048",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d04",
+      "plate": "BHGG71",
+      "entered_at": "2026-08-19T15:31:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0049",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d05",
+      "plate": "XWZV97",
+      "entered_at": "2026-08-19T16:33:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0050",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d06",
+      "plate": "BLVK46",
+      "entered_at": "2026-08-19T15:54:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0051",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d08",
+      "plate": "BGSB28",
+      "entered_at": "2026-08-19T16:56:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0001",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-01",
+      "plate": "RPZK44",
+      "entered_at": "2026-08-19T02:27:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0002",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "BJDJ19",
+      "entered_at": "2026-08-19T15:12:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0003",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "FLCH84",
+      "entered_at": "2026-08-19T14:38:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0004",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "JDFK17",
+      "entered_at": "2026-08-19T12:51:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0005",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": null,
+      "plate": "ZXDF24",
+      "entered_at": "2026-08-19T12:50:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0006",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": null,
+      "plate": "BCJW68",
+      "entered_at": "2026-08-19T14:15:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0007",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": null,
+      "plate": "KSBH68",
+      "entered_at": "2026-08-19T14:14:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0008",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": null,
+      "plate": "DTXF67",
+      "entered_at": "2026-08-19T11:12:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0009",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": null,
+      "plate": "DPLD50",
+      "entered_at": "2026-08-19T16:52:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0010",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": null,
+      "plate": "JRBC95",
+      "entered_at": "2026-08-19T02:54:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0011",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": null,
+      "plate": "BLXP91",
+      "entered_at": "2026-08-19T14:39:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0001",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "XRFT98",
+      "entered_at": "2026-08-19T02:06:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0002",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "PCGW29",
+      "entered_at": "2026-08-19T13:34:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0003",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "LGLV41",
+      "entered_at": "2026-08-19T12:25:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0004",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "BKXS40",
+      "entered_at": "2026-08-19T12:37:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0005",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "HRWP10",
+      "entered_at": "2026-08-19T12:51:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0006",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "LRZD59",
+      "entered_at": "2026-08-19T16:32:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0007",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "STLB64",
+      "entered_at": "2026-08-19T13:25:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0008",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "FLTK71",
+      "entered_at": "2026-08-19T12:53:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0009",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "HGFP77",
+      "entered_at": "2026-08-19T16:02:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0010",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "HPCP39",
+      "entered_at": "2026-08-19T02:04:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0011",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "KYST51",
+      "entered_at": "2026-08-19T11:41:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0012",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "BKHG39",
+      "entered_at": "2026-08-19T16:18:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0013",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "JKJZ27",
+      "entered_at": "2026-08-19T13:49:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0014",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "FRCK80",
+      "entered_at": "2026-08-19T11:48:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0015",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "GXVF55",
+      "entered_at": "2026-08-19T11:57:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0016",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "WCFK33",
+      "entered_at": "2026-08-19T15:15:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0017",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": null,
+      "plate": "RWHP63",
+      "entered_at": "2026-08-19T15:40:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0001",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "PWFY36",
+      "entered_at": "2026-08-19T01:19:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0002",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "YJGY32",
+      "entered_at": "2026-08-19T11:09:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0003",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "DXTF66",
+      "entered_at": "2026-08-19T16:53:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0004",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "VHLW13",
+      "entered_at": "2026-08-19T15:17:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0005",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": null,
+      "plate": "DHWK54",
+      "entered_at": "2026-08-19T16:18:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0006",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": null,
+      "plate": "FHRW55",
+      "entered_at": "2026-08-19T13:35:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0007",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": null,
+      "plate": "SVWP85",
+      "entered_at": "2026-08-19T16:10:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0008",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": null,
+      "plate": "DHYH22",
+      "entered_at": "2026-08-19T13:43:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0009",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": null,
+      "plate": "WRZW38",
+      "entered_at": "2026-08-19T13:29:00.000Z",
+      "exited_at": null
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0012",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-01",
+      "plate": "VLKF91",
+      "entered_at": "2026-07-20T11:40:00.000Z",
+      "exited_at": "2026-07-20T15:29:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0015",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "LWXB91",
+      "entered_at": "2026-07-20T13:49:00.000Z",
+      "exited_at": "2026-07-20T15:35:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0010",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "FFZP80",
+      "entered_at": "2026-07-20T16:15:00.000Z",
+      "exited_at": "2026-07-20T19:06:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0013",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "ZKZD83",
+      "entered_at": "2026-07-20T21:27:00.000Z",
+      "exited_at": "2026-07-20T22:34:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0052",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d10",
+      "plate": "CPXH65",
+      "entered_at": "2026-07-20T23:13:00.000Z",
+      "exited_at": "2026-07-21T01:49:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0053",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d09",
+      "plate": "RTHK71",
+      "entered_at": "2026-07-20T23:27:00.000Z",
+      "exited_at": "2026-07-21T01:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0011",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "CDWH47",
+      "entered_at": "2026-07-21T01:37:00.000Z",
+      "exited_at": "2026-07-21T03:22:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0018",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "FLXY97",
+      "entered_at": "2026-07-21T02:00:00.000Z",
+      "exited_at": "2026-07-21T12:20:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0019",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "KYGR20",
+      "entered_at": "2026-07-21T12:51:00.000Z",
+      "exited_at": "2026-07-21T14:36:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0014",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "VBXZ81",
+      "entered_at": "2026-07-21T18:23:00.000Z",
+      "exited_at": "2026-07-21T22:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0016",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-04",
+      "plate": "SFVJ59",
+      "entered_at": "2026-07-21T19:11:00.000Z",
+      "exited_at": "2026-07-22T03:35:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0054",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d11",
+      "plate": "BSWR86",
+      "entered_at": "2026-07-21T20:13:00.000Z",
+      "exited_at": "2026-07-21T23:56:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0012",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "RFDF98",
+      "entered_at": "2026-07-21T22:30:00.000Z",
+      "exited_at": "2026-07-22T00:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0017",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "TLTR85",
+      "entered_at": "2026-07-21T22:31:00.000Z",
+      "exited_at": "2026-07-21T23:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0013",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "HRWJ98",
+      "entered_at": "2026-07-21T23:20:00.000Z",
+      "exited_at": "2026-07-22T00:37:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0020",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "HWBW40",
+      "entered_at": "2026-07-21T23:34:00.000Z",
+      "exited_at": "2026-07-22T00:37:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0021",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "YRJC56",
+      "entered_at": "2026-07-22T12:10:00.000Z",
+      "exited_at": "2026-07-22T13:30:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0022",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "FTSB15",
+      "entered_at": "2026-07-22T12:46:00.000Z",
+      "exited_at": "2026-07-22T14:05:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0018",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "VPPD82",
+      "entered_at": "2026-07-22T13:11:00.000Z",
+      "exited_at": "2026-07-22T14:50:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0023",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "BCTJ31",
+      "entered_at": "2026-07-22T13:12:00.000Z",
+      "exited_at": "2026-07-22T19:57:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0015",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "VHST75",
+      "entered_at": "2026-07-22T16:38:00.000Z",
+      "exited_at": "2026-07-22T17:34:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0055",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d14",
+      "plate": "WTLJ48",
+      "entered_at": "2026-07-22T18:33:00.000Z",
+      "exited_at": "2026-07-22T19:05:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0014",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "ZKHY13",
+      "entered_at": "2026-07-22T18:52:00.000Z",
+      "exited_at": "2026-07-22T20:00:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0015",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "DFWH26",
+      "entered_at": "2026-07-22T19:44:00.000Z",
+      "exited_at": "2026-07-22T23:45:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0056",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d12",
+      "plate": "BFLY58",
+      "entered_at": "2026-07-22T23:49:00.000Z",
+      "exited_at": "2026-07-23T03:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0057",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d13",
+      "plate": "FRYX43",
+      "entered_at": "2026-07-23T00:01:00.000Z",
+      "exited_at": "2026-07-23T02:56:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0016",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "HJWD26",
+      "entered_at": "2026-07-23T12:04:00.000Z",
+      "exited_at": "2026-07-23T16:06:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0024",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "GVHK65",
+      "entered_at": "2026-07-23T12:57:00.000Z",
+      "exited_at": "2026-07-23T17:18:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0025",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "KHPJ83",
+      "entered_at": "2026-07-23T13:44:00.000Z",
+      "exited_at": "2026-07-23T14:35:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0019",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "PCGC54",
+      "entered_at": "2026-07-23T22:33:00.000Z",
+      "exited_at": "2026-07-23T23:57:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0058",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a02",
+      "plate": "RVZX62",
+      "entered_at": "2026-07-23T22:42:00.000Z",
+      "exited_at": "2026-07-24T01:32:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0016",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "BFWS54",
+      "entered_at": "2026-07-23T23:03:00.000Z",
+      "exited_at": "2026-07-24T01:34:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0059",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a01",
+      "plate": "HSXV98",
+      "entered_at": "2026-07-24T01:29:00.000Z",
+      "exited_at": "2026-07-24T04:54:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0026",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "VSGF75",
+      "entered_at": "2026-07-24T13:18:00.000Z",
+      "exited_at": "2026-07-24T14:37:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0027",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "YHJC42",
+      "entered_at": "2026-07-24T16:31:00.000Z",
+      "exited_at": "2026-07-24T19:09:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0020",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-04",
+      "plate": "DGJV38",
+      "entered_at": "2026-07-24T17:22:00.000Z",
+      "exited_at": "2026-07-24T20:04:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0017",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "GPVW94",
+      "entered_at": "2026-07-24T19:50:00.000Z",
+      "exited_at": "2026-07-24T21:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0017",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-01",
+      "plate": "PDVC23",
+      "entered_at": "2026-07-24T20:58:00.000Z",
+      "exited_at": "2026-07-24T22:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0018",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "LGYY79",
+      "entered_at": "2026-07-24T21:46:00.000Z",
+      "exited_at": "2026-07-24T23:35:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0028",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "KYLC85",
+      "entered_at": "2026-07-24T22:13:00.000Z",
+      "exited_at": "2026-07-25T02:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0060",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a04",
+      "plate": "GYFZ33",
+      "entered_at": "2026-07-24T23:30:00.000Z",
+      "exited_at": "2026-07-25T03:05:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0029",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "VXVX81",
+      "entered_at": "2026-07-25T15:45:00.000Z",
+      "exited_at": "2026-07-25T18:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0061",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a06",
+      "plate": "WGBF53",
+      "entered_at": "2026-07-25T16:24:00.000Z",
+      "exited_at": "2026-07-25T20:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0062",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a05",
+      "plate": "RLFK11",
+      "entered_at": "2026-07-25T16:47:00.000Z",
+      "exited_at": "2026-07-25T18:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0021",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "SCTJ96",
+      "entered_at": "2026-07-25T16:59:00.000Z",
+      "exited_at": "2026-07-25T19:54:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0018",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "YYSC14",
+      "entered_at": "2026-07-25T17:37:00.000Z",
+      "exited_at": "2026-07-25T18:58:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0019",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "HFPZ88",
+      "entered_at": "2026-07-25T21:32:00.000Z",
+      "exited_at": "2026-07-26T01:35:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0022",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "PJXW72",
+      "entered_at": "2026-07-26T13:20:00.000Z",
+      "exited_at": "2026-07-26T18:37:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0023",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "KHTV26",
+      "entered_at": "2026-07-26T13:43:00.000Z",
+      "exited_at": "2026-07-26T15:16:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0030",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "SYYZ29",
+      "entered_at": "2026-07-26T13:50:00.000Z",
+      "exited_at": "2026-07-26T22:24:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0020",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "DGGC98",
+      "entered_at": "2026-07-26T16:04:00.000Z",
+      "exited_at": "2026-07-26T16:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0019",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "XYZZ29",
+      "entered_at": "2026-07-26T18:16:00.000Z",
+      "exited_at": "2026-07-26T22:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0063",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a09",
+      "plate": "CHSL63",
+      "entered_at": "2026-07-26T18:31:00.000Z",
+      "exited_at": "2026-07-26T20:42:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0064",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a07",
+      "plate": "LPZT24",
+      "entered_at": "2026-07-26T22:40:00.000Z",
+      "exited_at": "2026-07-27T01:05:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0065",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a08",
+      "plate": "FFDW59",
+      "entered_at": "2026-07-27T00:19:00.000Z",
+      "exited_at": "2026-07-27T04:04:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0031",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "KDFY87",
+      "entered_at": "2026-07-27T11:43:00.000Z",
+      "exited_at": "2026-07-27T17:03:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0032",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "PPDV91",
+      "entered_at": "2026-07-27T12:02:00.000Z",
+      "exited_at": "2026-07-27T13:21:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0033",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "WRDV32",
+      "entered_at": "2026-07-27T13:28:00.000Z",
+      "exited_at": "2026-07-27T16:19:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0021",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "LVGL88",
+      "entered_at": "2026-07-27T17:06:00.000Z",
+      "exited_at": "2026-07-27T19:45:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0020",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "HWGS52",
+      "entered_at": "2026-07-27T17:54:00.000Z",
+      "exited_at": "2026-07-27T20:16:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0024",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-04",
+      "plate": "GTKF13",
+      "entered_at": "2026-07-27T20:51:00.000Z",
+      "exited_at": "2026-07-27T23:38:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0066",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a10",
+      "plate": "CZYR88",
+      "entered_at": "2026-07-28T00:41:00.000Z",
+      "exited_at": "2026-07-28T02:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0021",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-01",
+      "plate": "HXDX81",
+      "entered_at": "2026-07-28T12:19:00.000Z",
+      "exited_at": "2026-07-28T14:51:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0022",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "FHGD91",
+      "entered_at": "2026-07-28T15:18:00.000Z",
+      "exited_at": "2026-07-28T16:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0023",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "WDRS39",
+      "entered_at": "2026-07-28T18:41:00.000Z",
+      "exited_at": "2026-07-28T19:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0034",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "FDJR93",
+      "entered_at": "2026-07-28T21:42:00.000Z",
+      "exited_at": "2026-07-29T00:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0025",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "JWZD85",
+      "entered_at": "2026-07-28T22:25:00.000Z",
+      "exited_at": "2026-07-29T06:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0067",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a11",
+      "plate": "TVYK77",
+      "entered_at": "2026-07-28T23:04:00.000Z",
+      "exited_at": "2026-07-29T04:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0026",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "HLPT91",
+      "entered_at": "2026-07-29T13:18:00.000Z",
+      "exited_at": "2026-07-29T14:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0068",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a14",
+      "plate": "WFXW23",
+      "entered_at": "2026-07-29T15:04:00.000Z",
+      "exited_at": "2026-07-29T15:51:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0022",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "FJJC47",
+      "entered_at": "2026-07-29T17:50:00.000Z",
+      "exited_at": "2026-07-29T19:20:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0069",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a13",
+      "plate": "GZBR51",
+      "entered_at": "2026-07-29T18:42:00.000Z",
+      "exited_at": "2026-07-29T19:53:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0024",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "ZYJZ90",
+      "entered_at": "2026-07-29T18:46:00.000Z",
+      "exited_at": "2026-07-29T22:31:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0025",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "XRZS89",
+      "entered_at": "2026-07-29T18:52:00.000Z",
+      "exited_at": "2026-07-29T22:49:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0035",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "JHHV63",
+      "entered_at": "2026-07-30T00:54:00.000Z",
+      "exited_at": "2026-07-30T03:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0070",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a12",
+      "plate": "DGVS81",
+      "entered_at": "2026-07-30T01:35:00.000Z",
+      "exited_at": "2026-07-30T04:13:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0023",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "ZBFS86",
+      "entered_at": "2026-07-30T13:30:00.000Z",
+      "exited_at": "2026-07-30T17:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0027",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "THDG31",
+      "entered_at": "2026-07-30T13:31:00.000Z",
+      "exited_at": "2026-07-30T20:31:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0071",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a15",
+      "plate": "WBKH35",
+      "entered_at": "2026-07-30T21:45:00.000Z",
+      "exited_at": "2026-07-30T23:57:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0072",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a16",
+      "plate": "YCVV39",
+      "entered_at": "2026-07-30T21:50:00.000Z",
+      "exited_at": "2026-07-30T23:04:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0026",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "DPRV47",
+      "entered_at": "2026-07-30T22:06:00.000Z",
+      "exited_at": "2026-07-30T22:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0027",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "DCBT32",
+      "entered_at": "2026-07-30T23:03:00.000Z",
+      "exited_at": "2026-07-31T01:29:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0028",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-04",
+      "plate": "LVSS49",
+      "entered_at": "2026-07-31T13:30:00.000Z",
+      "exited_at": "2026-07-31T15:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0024",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-01",
+      "plate": "KCJR13",
+      "entered_at": "2026-07-31T13:51:00.000Z",
+      "exited_at": "2026-07-31T14:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0028",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "RHJR11",
+      "entered_at": "2026-07-31T15:32:00.000Z",
+      "exited_at": "2026-07-31T19:29:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0025",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "DBWZ22",
+      "entered_at": "2026-07-31T17:28:00.000Z",
+      "exited_at": "2026-07-31T21:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0073",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b02",
+      "plate": "LFKC61",
+      "entered_at": "2026-07-31T19:45:00.000Z",
+      "exited_at": "2026-07-31T20:45:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0074",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b01",
+      "plate": "VHSR28",
+      "entered_at": "2026-07-31T20:44:00.000Z",
+      "exited_at": "2026-07-31T22:34:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0036",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "VLRS21",
+      "entered_at": "2026-07-31T21:16:00.000Z",
+      "exited_at": "2026-08-01T01:32:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0029",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "BLFW69",
+      "entered_at": "2026-08-01T15:14:00.000Z",
+      "exited_at": "2026-08-01T17:48:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0026",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "RSDL66",
+      "entered_at": "2026-08-01T15:21:00.000Z",
+      "exited_at": "2026-08-01T17:07:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0037",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "TPHR98",
+      "entered_at": "2026-08-01T16:52:00.000Z",
+      "exited_at": "2026-08-02T00:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0075",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b06",
+      "plate": "ZBGG93",
+      "entered_at": "2026-08-01T17:27:00.000Z",
+      "exited_at": "2026-08-01T17:56:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0029",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "BKPP39",
+      "entered_at": "2026-08-01T19:08:00.000Z",
+      "exited_at": "2026-08-01T20:23:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0076",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b04",
+      "plate": "SLWV42",
+      "entered_at": "2026-08-01T20:10:00.000Z",
+      "exited_at": "2026-08-01T22:19:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0077",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b03",
+      "plate": "WYYX53",
+      "entered_at": "2026-08-01T20:24:00.000Z",
+      "exited_at": "2026-08-01T22:37:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0030",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "ZVTF69",
+      "entered_at": "2026-08-01T21:21:00.000Z",
+      "exited_at": "2026-08-02T00:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0031",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "WYXY75",
+      "entered_at": "2026-08-01T21:23:00.000Z",
+      "exited_at": "2026-08-01T22:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0078",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b05",
+      "plate": "SCRS21",
+      "entered_at": "2026-08-01T21:35:00.000Z",
+      "exited_at": "2026-08-01T22:32:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0030",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "LVVJ87",
+      "entered_at": "2026-08-02T14:03:00.000Z",
+      "exited_at": "2026-08-02T16:31:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0038",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "DJWK54",
+      "entered_at": "2026-08-02T14:19:00.000Z",
+      "exited_at": "2026-08-02T19:35:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0027",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "DGKC74",
+      "entered_at": "2026-08-02T15:50:00.000Z",
+      "exited_at": "2026-08-02T20:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0032",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "DFYB76",
+      "entered_at": "2026-08-02T16:11:00.000Z",
+      "exited_at": "2026-08-02T19:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0079",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b07",
+      "plate": "WVTG80",
+      "entered_at": "2026-08-02T16:49:00.000Z",
+      "exited_at": "2026-08-02T18:42:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0033",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "PFBR59",
+      "entered_at": "2026-08-02T16:51:00.000Z",
+      "exited_at": "2026-08-02T17:53:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0080",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b09",
+      "plate": "GGJK30",
+      "entered_at": "2026-08-02T19:40:00.000Z",
+      "exited_at": "2026-08-02T20:36:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0034",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "RGGP32",
+      "entered_at": "2026-08-02T20:52:00.000Z",
+      "exited_at": "2026-08-02T22:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0081",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b10",
+      "plate": "YTJT63",
+      "entered_at": "2026-08-02T21:21:00.000Z",
+      "exited_at": "2026-08-02T23:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0039",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "PGVY13",
+      "entered_at": "2026-08-03T11:28:00.000Z",
+      "exited_at": "2026-08-03T18:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0040",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "HYRF67",
+      "entered_at": "2026-08-03T12:43:00.000Z",
+      "exited_at": "2026-08-03T14:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0028",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "CKSS28",
+      "entered_at": "2026-08-03T12:45:00.000Z",
+      "exited_at": "2026-08-03T14:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0082",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b13",
+      "plate": "WGLK50",
+      "entered_at": "2026-08-03T16:12:00.000Z",
+      "exited_at": "2026-08-03T17:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0083",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b12",
+      "plate": "PLWL29",
+      "entered_at": "2026-08-03T16:40:00.000Z",
+      "exited_at": "2026-08-03T17:09:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0041",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "KXVZ62",
+      "entered_at": "2026-08-03T17:20:00.000Z",
+      "exited_at": "2026-08-03T19:47:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0031",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "RDVS16",
+      "entered_at": "2026-08-03T22:26:00.000Z",
+      "exited_at": "2026-08-04T00:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0084",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b11",
+      "plate": "YGCR15",
+      "entered_at": "2026-08-03T23:22:00.000Z",
+      "exited_at": "2026-08-04T01:08:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0035",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "XGJJ87",
+      "entered_at": "2026-08-04T00:50:00.000Z",
+      "exited_at": "2026-08-04T02:57:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0032",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "LYGJ90",
+      "entered_at": "2026-08-04T14:06:00.000Z",
+      "exited_at": "2026-08-04T18:08:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0042",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "WDPB97",
+      "entered_at": "2026-08-04T14:32:00.000Z",
+      "exited_at": "2026-08-04T17:13:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0033",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-04",
+      "plate": "VCXS61",
+      "entered_at": "2026-08-04T17:01:00.000Z",
+      "exited_at": "2026-08-04T21:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0085",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b14",
+      "plate": "JCBP32",
+      "entered_at": "2026-08-04T18:21:00.000Z",
+      "exited_at": "2026-08-04T19:30:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0036",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "YHBV36",
+      "entered_at": "2026-08-04T19:55:00.000Z",
+      "exited_at": "2026-08-05T01:04:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0043",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "KYJJ35",
+      "entered_at": "2026-08-05T14:47:00.000Z",
+      "exited_at": "2026-08-05T18:51:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0086",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c01",
+      "plate": "HRCS58",
+      "entered_at": "2026-08-05T15:28:00.000Z",
+      "exited_at": "2026-08-05T17:13:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0037",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "YDJK63",
+      "entered_at": "2026-08-05T17:37:00.000Z",
+      "exited_at": "2026-08-05T22:22:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0087",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b15",
+      "plate": "BRFB84",
+      "entered_at": "2026-08-05T18:02:00.000Z",
+      "exited_at": "2026-08-05T18:29:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0029",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "CPJR66",
+      "entered_at": "2026-08-05T20:30:00.000Z",
+      "exited_at": "2026-08-05T21:55:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0044",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "TPTC15",
+      "entered_at": "2026-08-05T22:57:00.000Z",
+      "exited_at": "2026-08-06T02:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0034",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "GLCJ52",
+      "entered_at": "2026-08-05T23:57:00.000Z",
+      "exited_at": "2026-08-06T03:46:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0088",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-b16",
+      "plate": "HKSW69",
+      "entered_at": "2026-08-06T00:48:00.000Z",
+      "exited_at": "2026-08-06T02:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0038",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "RPPR25",
+      "entered_at": "2026-08-06T01:45:00.000Z",
+      "exited_at": "2026-08-06T04:45:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0045",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "JCSD16",
+      "entered_at": "2026-08-06T12:00:00.000Z",
+      "exited_at": "2026-08-06T14:54:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0030",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "XJJD61",
+      "entered_at": "2026-08-06T16:21:00.000Z",
+      "exited_at": "2026-08-06T16:53:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0031",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "DRKB16",
+      "entered_at": "2026-08-06T18:02:00.000Z",
+      "exited_at": "2026-08-07T01:24:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0035",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "WBKB16",
+      "entered_at": "2026-08-06T18:34:00.000Z",
+      "exited_at": "2026-08-06T22:34:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0089",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c03",
+      "plate": "JSXJ15",
+      "entered_at": "2026-08-06T20:27:00.000Z",
+      "exited_at": "2026-08-06T23:03:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0039",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "BGHH79",
+      "entered_at": "2026-08-06T20:42:00.000Z",
+      "exited_at": "2026-08-06T22:50:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0090",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c02",
+      "plate": "DKKF42",
+      "entered_at": "2026-08-07T01:35:00.000Z",
+      "exited_at": "2026-08-07T02:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0040",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "TTSH19",
+      "entered_at": "2026-08-07T01:37:00.000Z",
+      "exited_at": "2026-08-07T04:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0046",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "BPJW83",
+      "entered_at": "2026-08-07T02:48:00.000Z",
+      "exited_at": "2026-08-07T16:05:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0036",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-04",
+      "plate": "LCWW71",
+      "entered_at": "2026-08-07T13:09:00.000Z",
+      "exited_at": "2026-08-07T14:46:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0091",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c05",
+      "plate": "DZXB29",
+      "entered_at": "2026-08-07T16:12:00.000Z",
+      "exited_at": "2026-08-07T19:55:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0032",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-01",
+      "plate": "YBTT31",
+      "entered_at": "2026-08-07T16:32:00.000Z",
+      "exited_at": "2026-08-07T20:46:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0047",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "FHDP40",
+      "entered_at": "2026-08-07T18:39:00.000Z",
+      "exited_at": "2026-08-07T20:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0033",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "VTWD10",
+      "entered_at": "2026-08-07T19:16:00.000Z",
+      "exited_at": "2026-08-07T20:37:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0041",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "VYSW43",
+      "entered_at": "2026-08-07T23:50:00.000Z",
+      "exited_at": "2026-08-08T02:03:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0092",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c04",
+      "plate": "LVVP85",
+      "entered_at": "2026-08-08T00:26:00.000Z",
+      "exited_at": "2026-08-08T03:19:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0037",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "LPDX99",
+      "entered_at": "2026-08-08T13:03:00.000Z",
+      "exited_at": "2026-08-08T15:38:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0038",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "FGCJ77",
+      "entered_at": "2026-08-08T14:04:00.000Z",
+      "exited_at": "2026-08-08T14:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0048",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "YFRG84",
+      "entered_at": "2026-08-08T14:16:00.000Z",
+      "exited_at": "2026-08-08T23:09:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0042",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "GKPF54",
+      "entered_at": "2026-08-08T16:06:00.000Z",
+      "exited_at": "2026-08-08T20:03:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0093",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c07",
+      "plate": "XWZR36",
+      "entered_at": "2026-08-08T16:21:00.000Z",
+      "exited_at": "2026-08-08T18:47:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0034",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "LFGL43",
+      "entered_at": "2026-08-08T16:29:00.000Z",
+      "exited_at": "2026-08-08T21:52:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0035",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "ZYJV57",
+      "entered_at": "2026-08-08T16:40:00.000Z",
+      "exited_at": "2026-08-08T19:09:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0094",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c06",
+      "plate": "GLGS73",
+      "entered_at": "2026-08-08T17:08:00.000Z",
+      "exited_at": "2026-08-08T18:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0043",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "ZKYK26",
+      "entered_at": "2026-08-08T18:23:00.000Z",
+      "exited_at": "2026-08-08T19:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0036",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-01",
+      "plate": "TTLJ97",
+      "entered_at": "2026-08-09T14:21:00.000Z",
+      "exited_at": "2026-08-09T17:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0049",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "PBLD17",
+      "entered_at": "2026-08-09T14:49:00.000Z",
+      "exited_at": "2026-08-09T17:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0050",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "PXKX55",
+      "entered_at": "2026-08-09T18:27:00.000Z",
+      "exited_at": "2026-08-09T22:50:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0044",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "PJBT44",
+      "entered_at": "2026-08-09T22:20:00.000Z",
+      "exited_at": "2026-08-09T23:25:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0095",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c08",
+      "plate": "VJRW21",
+      "entered_at": "2026-08-10T00:39:00.000Z",
+      "exited_at": "2026-08-10T12:39:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0039",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "STXS47",
+      "entered_at": "2026-08-10T01:12:00.000Z",
+      "exited_at": "2026-08-10T11:49:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0096",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c09",
+      "plate": "YRCR14",
+      "entered_at": "2026-08-10T02:21:00.000Z",
+      "exited_at": "2026-08-10T12:51:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0051",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "TGJR72",
+      "entered_at": "2026-08-10T12:40:00.000Z",
+      "exited_at": "2026-08-10T13:46:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0052",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "GRRP89",
+      "entered_at": "2026-08-10T13:28:00.000Z",
+      "exited_at": "2026-08-10T16:07:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0037",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "JBDR21",
+      "entered_at": "2026-08-10T15:14:00.000Z",
+      "exited_at": "2026-08-10T16:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0040",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-04",
+      "plate": "PRGZ75",
+      "entered_at": "2026-08-10T17:15:00.000Z",
+      "exited_at": "2026-08-10T18:16:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0045",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "WXWJ45",
+      "entered_at": "2026-08-10T20:45:00.000Z",
+      "exited_at": "2026-08-10T23:30:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0046",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "FPVD89",
+      "entered_at": "2026-08-10T21:26:00.000Z",
+      "exited_at": "2026-08-10T22:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0097",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c11",
+      "plate": "TBXP90",
+      "entered_at": "2026-08-11T00:07:00.000Z",
+      "exited_at": "2026-08-11T02:03:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0038",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "CZLK78",
+      "entered_at": "2026-08-11T11:18:00.000Z",
+      "exited_at": "2026-08-11T13:52:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0053",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "LSBG44",
+      "entered_at": "2026-08-11T11:55:00.000Z",
+      "exited_at": "2026-08-11T12:43:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0098",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c12",
+      "plate": "CHKH90",
+      "entered_at": "2026-08-11T16:28:00.000Z",
+      "exited_at": "2026-08-11T18:43:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0099",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c14",
+      "plate": "XYFR87",
+      "entered_at": "2026-08-11T19:03:00.000Z",
+      "exited_at": "2026-08-12T00:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0047",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "LWCG18",
+      "entered_at": "2026-08-11T20:39:00.000Z",
+      "exited_at": "2026-08-11T22:14:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0041",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "VVWX93",
+      "entered_at": "2026-08-12T00:00:00.000Z",
+      "exited_at": "2026-08-12T04:00:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0100",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-c13",
+      "plate": "HRCX44",
+      "entered_at": "2026-08-12T00:37:00.000Z",
+      "exited_at": "2026-08-12T01:13:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0054",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "ZSXP27",
+      "entered_at": "2026-08-12T02:04:00.000Z",
+      "exited_at": "2026-08-12T14:23:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0055",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "JGLK72",
+      "entered_at": "2026-08-12T11:08:00.000Z",
+      "exited_at": "2026-08-12T16:33:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0056",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "VYLT64",
+      "entered_at": "2026-08-12T12:17:00.000Z",
+      "exited_at": "2026-08-12T21:04:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0042",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "BRPL97",
+      "entered_at": "2026-08-12T12:45:00.000Z",
+      "exited_at": "2026-08-12T13:23:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0039",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "KSTT14",
+      "entered_at": "2026-08-12T12:52:00.000Z",
+      "exited_at": "2026-08-12T17:09:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0048",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "HBCG10",
+      "entered_at": "2026-08-12T17:22:00.000Z",
+      "exited_at": "2026-08-12T19:10:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0101",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d01",
+      "plate": "BYFC34",
+      "entered_at": "2026-08-12T21:25:00.000Z",
+      "exited_at": "2026-08-12T23:31:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0057",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "BXXJ40",
+      "entered_at": "2026-08-12T22:29:00.000Z",
+      "exited_at": "2026-08-13T02:15:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0040",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-01",
+      "plate": "HKYF25",
+      "entered_at": "2026-08-12T23:58:00.000Z",
+      "exited_at": "2026-08-13T03:47:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0049",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "XZYC10",
+      "entered_at": "2026-08-13T01:12:00.000Z",
+      "exited_at": "2026-08-13T02:40:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0043",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "GRBT68",
+      "entered_at": "2026-08-13T12:10:00.000Z",
+      "exited_at": "2026-08-13T20:53:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0058",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "LBJH40",
+      "entered_at": "2026-08-13T12:21:00.000Z",
+      "exited_at": "2026-08-13T14:45:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0059",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "FGDC34",
+      "entered_at": "2026-08-13T13:54:00.000Z",
+      "exited_at": "2026-08-13T14:46:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0050",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "HSWP96",
+      "entered_at": "2026-08-13T16:18:00.000Z",
+      "exited_at": "2026-08-13T17:23:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0051",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "RHTL76",
+      "entered_at": "2026-08-13T18:53:00.000Z",
+      "exited_at": "2026-08-13T20:34:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0041",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "YGKV54",
+      "entered_at": "2026-08-13T20:18:00.000Z",
+      "exited_at": "2026-08-13T22:51:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0102",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d02",
+      "plate": "HVBW32",
+      "entered_at": "2026-08-14T01:38:00.000Z",
+      "exited_at": "2026-08-14T06:28:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0044",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "VTPC89",
+      "entered_at": "2026-08-14T11:59:00.000Z",
+      "exited_at": "2026-08-14T12:43:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0042",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "VCHL89",
+      "entered_at": "2026-08-14T13:09:00.000Z",
+      "exited_at": "2026-08-14T17:15:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0103",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d04",
+      "plate": "HDYS46",
+      "entered_at": "2026-08-14T16:25:00.000Z",
+      "exited_at": "2026-08-14T17:30:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0060",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "XJFL35",
+      "entered_at": "2026-08-14T16:30:00.000Z",
+      "exited_at": "2026-08-14T19:08:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0052",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "LXYF39",
+      "entered_at": "2026-08-14T19:47:00.000Z",
+      "exited_at": "2026-08-14T21:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0104",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d03",
+      "plate": "SWWW91",
+      "entered_at": "2026-08-15T00:02:00.000Z",
+      "exited_at": "2026-08-15T03:07:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0045",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "LTVD52",
+      "entered_at": "2026-08-15T14:39:00.000Z",
+      "exited_at": "2026-08-15T18:52:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0105",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d08",
+      "plate": "VSXL83",
+      "entered_at": "2026-08-15T15:30:00.000Z",
+      "exited_at": "2026-08-15T17:42:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0061",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "ZLJJ40",
+      "entered_at": "2026-08-15T16:12:00.000Z",
+      "exited_at": "2026-08-15T18:42:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0106",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d09",
+      "plate": "CXZH22",
+      "entered_at": "2026-08-15T16:55:00.000Z",
+      "exited_at": "2026-08-15T17:42:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0107",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d06",
+      "plate": "KBRX38",
+      "entered_at": "2026-08-15T17:03:00.000Z",
+      "exited_at": "2026-08-15T18:27:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0053",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "SRTJ36",
+      "entered_at": "2026-08-15T17:34:00.000Z",
+      "exited_at": "2026-08-15T21:19:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0108",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d05",
+      "plate": "HTWH82",
+      "entered_at": "2026-08-15T18:08:00.000Z",
+      "exited_at": "2026-08-15T19:12:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0054",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "GYRW71",
+      "entered_at": "2026-08-15T19:33:00.000Z",
+      "exited_at": "2026-08-15T20:15:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0043",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-04",
+      "plate": "PDLC90",
+      "entered_at": "2026-08-15T21:13:00.000Z",
+      "exited_at": "2026-08-16T02:43:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0062",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "DKYL86",
+      "entered_at": "2026-08-15T21:53:00.000Z",
+      "exited_at": "2026-08-15T23:08:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0055",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "FCYB89",
+      "entered_at": "2026-08-16T00:48:00.000Z",
+      "exited_at": "2026-08-16T02:09:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0046",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-03",
+      "plate": "LLYB21",
+      "entered_at": "2026-08-16T13:10:00.000Z",
+      "exited_at": "2026-08-16T15:57:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0063",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "RLFL71",
+      "entered_at": "2026-08-16T13:18:00.000Z",
+      "exited_at": "2026-08-16T14:45:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0044",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-01",
+      "plate": "CDKR48",
+      "entered_at": "2026-08-16T14:13:00.000Z",
+      "exited_at": "2026-08-16T20:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0064",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-02",
+      "plate": "BLKZ73",
+      "entered_at": "2026-08-16T17:11:00.000Z",
+      "exited_at": "2026-08-16T18:08:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0109",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d11",
+      "plate": "FVCR47",
+      "entered_at": "2026-08-16T17:12:00.000Z",
+      "exited_at": "2026-08-16T20:01:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0056",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-02",
+      "plate": "CJWC74",
+      "entered_at": "2026-08-16T17:54:00.000Z",
+      "exited_at": "2026-08-16T19:17:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0110",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d10",
+      "plate": "RSVK31",
+      "entered_at": "2026-08-16T18:37:00.000Z",
+      "exited_at": "2026-08-16T19:55:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0057",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-03",
+      "plate": "YJBS98",
+      "entered_at": "2026-08-16T21:53:00.000Z",
+      "exited_at": "2026-08-16T23:04:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0058",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "GPYP59",
+      "entered_at": "2026-08-17T00:41:00.000Z",
+      "exited_at": "2026-08-17T01:58:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0045",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-02",
+      "plate": "XRXV37",
+      "entered_at": "2026-08-17T13:26:00.000Z",
+      "exited_at": "2026-08-17T15:41:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0047",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-04",
+      "plate": "ZBHF11",
+      "entered_at": "2026-08-17T14:05:00.000Z",
+      "exited_at": "2026-08-17T18:18:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0111",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d13",
+      "plate": "FTWW66",
+      "entered_at": "2026-08-17T15:23:00.000Z",
+      "exited_at": "2026-08-17T17:32:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0059",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-04",
+      "plate": "HLTR77",
+      "entered_at": "2026-08-17T18:52:00.000Z",
+      "exited_at": "2026-08-17T22:50:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0065",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-03",
+      "plate": "ZXPR69",
+      "entered_at": "2026-08-17T22:43:00.000Z",
+      "exited_at": "2026-08-18T00:25:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0112",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d12",
+      "plate": "GRGC11",
+      "entered_at": "2026-08-18T02:15:00.000Z",
+      "exited_at": "2026-08-18T15:11:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0066",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-04",
+      "plate": "BLKR32",
+      "entered_at": "2026-08-18T12:50:00.000Z",
+      "exited_at": "2026-08-18T20:00:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-estacion-central-0067",
+      "parking_lot": "parking-lot-estacion-central",
+      "parking_spot": "parking-spot-estacion-central-01",
+      "plate": "TWPD63",
+      "entered_at": "2026-08-18T13:29:00.000Z",
+      "exited_at": "2026-08-18T22:17:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0048",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-02",
+      "plate": "BSFS54",
+      "entered_at": "2026-08-18T16:07:00.000Z",
+      "exited_at": "2026-08-18T18:59:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-plaza-de-armas-0049",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "parking_spot": "parking-spot-plaza-de-armas-01",
+      "plate": "YCWT76",
+      "entered_at": "2026-08-18T17:38:00.000Z",
+      "exited_at": "2026-08-18T21:26:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-nunoa-0060",
+      "parking_lot": "parking-lot-nunoa",
+      "parking_spot": "parking-spot-nunoa-01",
+      "plate": "FLLP27",
+      "entered_at": "2026-08-18T18:50:00.000Z",
+      "exited_at": "2026-08-18T23:42:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0046",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": "parking-spot-los-leones-03",
+      "plate": "CWKF66",
+      "entered_at": "2026-08-18T22:28:00.000Z",
+      "exited_at": "2026-08-19T02:15:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0113",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-a02",
+      "plate": "BYLH28",
+      "entered_at": "2026-08-19T00:20:00.000Z",
+      "exited_at": "2026-08-19T04:02:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-costanera-center-0114",
+      "parking_lot": "parking-lot-costanera-center",
+      "parking_spot": "parking-spot-costanera-d14",
+      "plate": "ZRGK23",
+      "entered_at": "2026-08-19T01:38:00.000Z",
+      "exited_at": "2026-08-19T12:38:00.000Z"
+    },
+    {
+      "_sync_id": "parking-session-los-leones-0047",
+      "parking_lot": "parking-lot-los-leones",
+      "parking_spot": null,
+      "plate": "SWJK32",
+      "entered_at": "2026-08-19T15:39:00.000Z",
+      "exited_at": "2026-08-19T16:49:00.000Z"
+    }
+  ]
+}

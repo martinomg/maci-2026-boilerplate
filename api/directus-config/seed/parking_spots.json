@@ -1,0 +1,624 @@
+{
+  "collection": "parking_spots",
+  "meta": {
+    "insert_order": 50,
+    "create": true,
+    "update": true,
+    "delete": false,
+    "preserve_ids": false,
+    "ignore_on_update": [
+      "date_created",
+      "date_updated"
+    ]
+  },
+  "data": [
+    {
+      "_sync_id": "parking-spot-costanera-a01",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A01",
+      "type": "disabled",
+      "status": "available",
+      "svg_element_id": "spot-a-01"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a02",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A02",
+      "type": "disabled",
+      "status": "available",
+      "svg_element_id": "spot-a-02"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a03",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A03",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-03"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a04",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A04",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-04"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a05",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A05",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-05"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a06",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A06",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-06"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a07",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A07",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-07"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a08",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A08",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-08"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a09",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A09",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-09"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a10",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A10",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-10"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a11",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A11",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-11"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a12",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A12",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-12"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a13",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A13",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-13"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a14",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A14",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-14"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a15",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A15",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-15"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-a16",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "A16",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-a-16"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b01",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B01",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-01"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b02",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B02",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-02"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b03",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B03",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-03"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b04",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B04",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-04"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b05",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B05",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-05"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b06",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B06",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-06"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b07",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B07",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-07"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b08",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B08",
+      "type": "standard",
+      "status": "maintenance",
+      "svg_element_id": "spot-b-08"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b09",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B09",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-09"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b10",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B10",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-10"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b11",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B11",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-11"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b12",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B12",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-12"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b13",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B13",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-13"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b14",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B14",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-b-14"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b15",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B15",
+      "type": "ev",
+      "status": "available",
+      "svg_element_id": "spot-b-15"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-b16",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "B16",
+      "type": "ev",
+      "status": "available",
+      "svg_element_id": "spot-b-16"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c01",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C01",
+      "type": "disabled",
+      "status": "available",
+      "svg_element_id": "spot-c-01"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c02",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C02",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-02"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c03",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C03",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-03"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c04",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C04",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-04"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c05",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C05",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-05"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c06",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C06",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-06"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c07",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C07",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-07"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c08",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C08",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-08"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c09",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C09",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-09"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c10",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C10",
+      "type": "standard",
+      "status": "out_of_service",
+      "svg_element_id": "spot-c-10"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c11",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C11",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-11"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c12",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C12",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-12"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c13",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C13",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-13"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-c14",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "C14",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-c-14"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d01",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D01",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-01"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d02",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D02",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-02"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d03",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D03",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-03"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d04",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D04",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-04"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d05",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D05",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-05"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d06",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D06",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-06"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d07",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D07",
+      "type": "standard",
+      "status": "maintenance",
+      "svg_element_id": "spot-d-07"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d08",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D08",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-08"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d09",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D09",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-09"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d10",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D10",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-10"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d11",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D11",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-11"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d12",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D12",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": "spot-d-12"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d13",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D13",
+      "type": "ev",
+      "status": "available",
+      "svg_element_id": "spot-d-13"
+    },
+    {
+      "_sync_id": "parking-spot-costanera-d14",
+      "parking_lot": "parking-lot-costanera-center",
+      "code": "D14",
+      "type": "ev",
+      "status": "available",
+      "svg_element_id": "spot-d-14"
+    },
+    {
+      "_sync_id": "parking-spot-plaza-de-armas-01",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "code": "PA-01",
+      "type": "disabled",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-plaza-de-armas-02",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "code": "PA-02",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-plaza-de-armas-03",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "code": "PA-03",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-plaza-de-armas-04",
+      "parking_lot": "parking-lot-plaza-de-armas",
+      "code": "PA-04",
+      "type": "ev",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-los-leones-01",
+      "parking_lot": "parking-lot-los-leones",
+      "code": "LL-01",
+      "type": "disabled",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-los-leones-02",
+      "parking_lot": "parking-lot-los-leones",
+      "code": "LL-02",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-los-leones-03",
+      "parking_lot": "parking-lot-los-leones",
+      "code": "LL-03",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-los-leones-04",
+      "parking_lot": "parking-lot-los-leones",
+      "code": "LL-04",
+      "type": "ev",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-estacion-central-01",
+      "parking_lot": "parking-lot-estacion-central",
+      "code": "EC-01",
+      "type": "disabled",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-estacion-central-02",
+      "parking_lot": "parking-lot-estacion-central",
+      "code": "EC-02",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-estacion-central-03",
+      "parking_lot": "parking-lot-estacion-central",
+      "code": "EC-03",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-estacion-central-04",
+      "parking_lot": "parking-lot-estacion-central",
+      "code": "EC-04",
+      "type": "ev",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-nunoa-01",
+      "parking_lot": "parking-lot-nunoa",
+      "code": "NU-01",
+      "type": "disabled",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-nunoa-02",
+      "parking_lot": "parking-lot-nunoa",
+      "code": "NU-02",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-nunoa-03",
+      "parking_lot": "parking-lot-nunoa",
+      "code": "NU-03",
+      "type": "standard",
+      "status": "available",
+      "svg_element_id": null
+    },
+    {
+      "_sync_id": "parking-spot-nunoa-04",
+      "parking_lot": "parking-lot-nunoa",
+      "code": "NU-04",
+      "type": "ev",
+      "status": "available",
+      "svg_element_id": null
+    }
+  ]
+}

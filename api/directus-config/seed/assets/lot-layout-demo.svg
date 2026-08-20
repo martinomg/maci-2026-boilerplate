@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="900" height="640" role="img" aria-labelledby="layout-title layout-desc">
+  <title id="layout-title">Costanera Center parking layout</title>
+  <desc id="layout-desc">Two levels, four rows and 60 numbered spots. Every spot rectangle carries a stable id that matches parking_spots.svg_element_id.</desc>
+  <style>
+    .surface { fill: #e7e5e4; }
+    .lane { fill: #d6d3d1; }
+    .lane-line { stroke: #fafaf9; stroke-width: 3; stroke-dasharray: 18 14; }
+    .spot { fill: #fafaf9; stroke: #a8a29e; stroke-width: 2; }
+    .spot-label { font: 600 13px/1 system-ui, sans-serif; fill: #57534e; text-anchor: middle; }
+    .level-label { font: 700 16px/1 system-ui, sans-serif; fill: #44403c; }
+    .lane-label { font: 600 12px/1 system-ui, sans-serif; fill: #78716c; text-anchor: middle; }
+  </style>
+
+  <rect class="surface" x="0" y="0" width="900" height="640" rx="12" />
+
+  <g id="level-1">
+    <text class="level-label" x="24" y="26">Level 1</text>
+    <rect class="lane" x="20" y="122" width="860" height="64" rx="6" />
+    <line class="lane-line" x1="40" y1="154" x2="860" y2="154" />
+    <text class="lane-label" x="450" y="178">Drive aisle</text>
+    <g id="row-a">
+      <rect class="spot" id="spot-a-01" x="36" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="60" y="84">A01</text>
+      <rect class="spot" id="spot-a-02" x="88" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="112" y="84">A02</text>
+      <rect class="spot" id="spot-a-03" x="140" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="164" y="84">A03</text>
+      <rect class="spot" id="spot-a-04" x="192" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="216" y="84">A04</text>
+      <rect class="spot" id="spot-a-05" x="244" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="268" y="84">A05</text>
+      <rect class="spot" id="spot-a-06" x="296" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="320" y="84">A06</text>
+      <rect class="spot" id="spot-a-07" x="348" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="372" y="84">A07</text>
+      <rect class="spot" id="spot-a-08" x="400" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="424" y="84">A08</text>
+      <rect class="spot" id="spot-a-09" x="452" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="476" y="84">A09</text>
+      <rect class="spot" id="spot-a-10" x="504" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="528" y="84">A10</text>
+      <rect class="spot" id="spot-a-11" x="556" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="580" y="84">A11</text>
+      <rect class="spot" id="spot-a-12" x="608" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="632" y="84">A12</text>
+      <rect class="spot" id="spot-a-13" x="660" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="684" y="84">A13</text>
+      <rect class="spot" id="spot-a-14" x="712" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="736" y="84">A14</text>
+      <rect class="spot" id="spot-a-15" x="764" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="788" y="84">A15</text>
+      <rect class="spot" id="spot-a-16" x="816" y="40" width="48" height="78" rx="4" />
+      <text class="spot-label" x="840" y="84">A16</text>
+    </g>
+    <g id="row-b">
+      <rect class="spot" id="spot-b-01" x="36" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="60" y="230">B01</text>
+      <rect class="spot" id="spot-b-02" x="88" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="112" y="230">B02</text>
+      <rect class="spot" id="spot-b-03" x="140" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="164" y="230">B03</text>
+      <rect class="spot" id="spot-b-04" x="192" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="216" y="230">B04</text>
+      <rect class="spot" id="spot-b-05" x="244" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="268" y="230">B05</text>
+      <rect class="spot" id="spot-b-06" x="296" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="320" y="230">B06</text>
+      <rect class="spot" id="spot-b-07" x="348" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="372" y="230">B07</text>
+      <rect class="spot" id="spot-b-08" x="400" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="424" y="230">B08</text>
+      <rect class="spot" id="spot-b-09" x="452" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="476" y="230">B09</text>
+      <rect class="spot" id="spot-b-10" x="504" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="528" y="230">B10</text>
+      <rect class="spot" id="spot-b-11" x="556" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="580" y="230">B11</text>
+      <rect class="spot" id="spot-b-12" x="608" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="632" y="230">B12</text>
+      <rect class="spot" id="spot-b-13" x="660" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="684" y="230">B13</text>
+      <rect class="spot" id="spot-b-14" x="712" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="736" y="230">B14</text>
+      <rect class="spot" id="spot-b-15" x="764" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="788" y="230">B15</text>
+      <rect class="spot" id="spot-b-16" x="816" y="186" width="48" height="78" rx="4" />
+      <text class="spot-label" x="840" y="230">B16</text>
+    </g>
+  </g>
+
+  <g id="level-2">
+    <text class="level-label" x="24" y="326">Level 2</text>
+    <rect class="lane" x="20" y="422" width="860" height="64" rx="6" />
+    <line class="lane-line" x1="40" y1="454" x2="860" y2="454" />
+    <text class="lane-label" x="450" y="478">Drive aisle</text>
+    <g id="row-c">
+      <rect class="spot" id="spot-c-01" x="88" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="112" y="384">C01</text>
+      <rect class="spot" id="spot-c-02" x="140" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="164" y="384">C02</text>
+      <rect class="spot" id="spot-c-03" x="192" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="216" y="384">C03</text>
+      <rect class="spot" id="spot-c-04" x="244" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="268" y="384">C04</text>
+      <rect class="spot" id="spot-c-05" x="296" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="320" y="384">C05</text>
+      <rect class="spot" id="spot-c-06" x="348" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="372" y="384">C06</text>
+      <rect class="spot" id="spot-c-07" x="400" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="424" y="384">C07</text>
+      <rect class="spot" id="spot-c-08" x="452" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="476" y="384">C08</text>
+      <rect class="spot" id="spot-c-09" x="504" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="528" y="384">C09</text>
+      <rect class="spot" id="spot-c-10" x="556" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="580" y="384">C10</text>
+      <rect class="spot" id="spot-c-11" x="608" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="632" y="384">C11</text>
+      <rect class="spot" id="spot-c-12" x="660" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="684" y="384">C12</text>
+      <rect class="spot" id="spot-c-13" x="712" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="736" y="384">C13</text>
+      <rect class="spot" id="spot-c-14" x="764" y="340" width="48" height="78" rx="4" />
+      <text class="spot-label" x="788" y="384">C14</text>
+    </g>
+    <g id="row-d">
+      <rect class="spot" id="spot-d-01" x="88" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="112" y="530">D01</text>
+      <rect class="spot" id="spot-d-02" x="140" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="164" y="530">D02</text>
+      <rect class="spot" id="spot-d-03" x="192" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="216" y="530">D03</text>
+      <rect class="spot" id="spot-d-04" x="244" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="268" y="530">D04</text>
+      <rect class="spot" id="spot-d-05" x="296" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="320" y="530">D05</text>
+      <rect class="spot" id="spot-d-06" x="348" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="372" y="530">D06</text>
+      <rect class="spot" id="spot-d-07" x="400" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="424" y="530">D07</text>
+      <rect class="spot" id="spot-d-08" x="452" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="476" y="530">D08</text>
+      <rect class="spot" id="spot-d-09" x="504" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="528" y="530">D09</text>
+      <rect class="spot" id="spot-d-10" x="556" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="580" y="530">D10</text>
+      <rect class="spot" id="spot-d-11" x="608" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="632" y="530">D11</text>
+      <rect class="spot" id="spot-d-12" x="660" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="684" y="530">D12</text>
+      <rect class="spot" id="spot-d-13" x="712" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="736" y="530">D13</text>
+      <rect class="spot" id="spot-d-14" x="764" y="486" width="48" height="78" rx="4" />
+      <text class="spot-label" x="788" y="530">D14</text>
+    </g>
+  </g>
+
+</svg>
