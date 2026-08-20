@@ -1,0 +1,22 @@
+import * as React from "react"
+
+const MOBILE_BREAKPOINT = 768
+const MOBILE_QUERY = `(max-width: ${MOBILE_BREAKPOINT - 1}px)`
+
+function subscribe(onStoreChange: () => void) {
+  const mql = window.matchMedia(MOBILE_QUERY)
+  mql.addEventListener("change", onStoreChange)
+  return () => mql.removeEventListener("change", onStoreChange)
+}
+
+/**
+ * Matches the mobile breakpoint without a setState-in-effect cascade.
+ * The server snapshot is `false` so the desktop shell is the SSR default.
+ */
+export function useIsMobile() {
+  return React.useSyncExternalStore(
+    subscribe,
+    () => window.matchMedia(MOBILE_QUERY).matches,
+    () => false
+  )
+}

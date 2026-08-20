@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { PageContainer } from "@/components/page-header";
 import { getPostBySlug } from "@/lib/directus";
 
 export const dynamic = "force-dynamic";
@@ -27,13 +29,21 @@ export default async function BlogPostPage({ params }: PageProps) {
   if (!post) notFound();
 
   return (
-    <main className="article-shell">
-      <Link className="back-link" href="/">
+    <PageContainer className="max-w-3xl">
+      <Link
+        className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+        href="/"
+      >
+        <ArrowLeft className="size-4" />
         Back to journal
       </Link>
-      <article className="article">
+
+      <article className="mt-8">
         <header>
-          <time dateTime={post.published_at}>
+          <time
+            dateTime={post.published_at}
+            className="font-mono text-[0.68rem] tracking-[0.18em] text-muted-foreground uppercase"
+          >
             {new Intl.DateTimeFormat("en", {
               day: "numeric",
               month: "long",
@@ -41,13 +51,27 @@ export default async function BlogPostPage({ params }: PageProps) {
               timeZone: "UTC",
             }).format(new Date(post.published_at))}
           </time>
-          <h1>{post.title}</h1>
-          <p>{post.excerpt}</p>
+          <h1 className="mt-3 text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
+            {post.title}
+          </h1>
+          <p className="mt-4 text-lg leading-relaxed text-muted-foreground text-pretty">
+            {post.excerpt}
+          </p>
         </header>
-        <div className="article-cover">
-          <Image src={post.cover_url} alt="" fill priority unoptimized sizes="100vw" />
+
+        <div className="relative mt-8 aspect-[16/9] w-full overflow-hidden rounded-xl bg-muted ring-1 ring-foreground/10">
+          <Image
+            src={post.cover_url}
+            alt=""
+            fill
+            priority
+            unoptimized
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="object-cover"
+          />
         </div>
-        <div className="article-body">
+
+        <div className="mt-10 space-y-6 text-base leading-8 text-pretty">
           {post.content
             .split(/\n\s*\n/)
             .filter(Boolean)
@@ -56,6 +80,6 @@ export default async function BlogPostPage({ params }: PageProps) {
             ))}
         </div>
       </article>
-    </main>
+    </PageContainer>
   );
 }
